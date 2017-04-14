@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="createprofile" label="Create Profile">
+    <asset type="view">createprofile</asset>
+
+    <fixed>
+        <rule>CreateProfile</rule>
+    </fixed>
+</section>

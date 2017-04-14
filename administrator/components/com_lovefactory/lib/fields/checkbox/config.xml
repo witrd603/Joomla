@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+    <fields name="params">
+        <fieldset name="params">
+            <field name="images" type="FieldImages"
+                   label="Use images as options. For each saved choice, select the image that will be used."/>
+
+            <field name="choices" type="FieldChoices" default="" filter="JFormFieldFieldChoices::filter"
+                   label="COM_LOVEFACTORY_FORM_FIELD_CHOICES_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_CHOICES_DESC"/>
+
+            <field name="min_choices" type="text" default="0" size="5" filter="int"
+                   label="COM_LOVEFACTORY_FORM_FIELD_CHOICES_MIN_CHOICES_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_CHOICES_MIN_CHOICES_DESC"/>
+            <field name="max_choices" type="text" default="0" size="5" filter="int"
+                   label="COM_LOVEFACTORY_FORM_FIELD_CHOICES_MAX_CHOICES_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_CHOICES_MAX_CHOICES_DESC"/>
+
+            <field name="display_mode" type="list" default="line"
+                   label="COM_LOVEFACTORY_FORM_FIELD_DISPLAY_MODE_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_DISPLAY_MODE_DESC">
+                <option value="line">COM_LOVEFACTORY_FORM_FIELD_DISPLAY_MODE_LINE</option>
+                <option value="row">COM_LOVEFACTORY_FORM_FIELD_DISPLAY_MODE_ROW</option>
+            </field>
+
+        </fieldset>
+    </fields>
+</form>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="params">
+            <field type="textarea" name="bank_details" rows="10"
+                   label="FACTORY_PAYMENT_PLUGIN_OFFLINE_BANK_DETAILS_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_OFFLINE_BANK_DETAILS_DESC"/>
+
+            <field type="list" name="email_notification" default="0"
+                   label="FACTORY_PAYMENT_PLUGIN_OFFLINE_EMAIL_NOTIFICATION_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_OFFLINE_EMAIL_NOTIFICATION_DESC">
+                <option value="0">FACTORY_PAYMENT_PLUGIN_OFFLINE_EMAIL_NOTIFICATION_OPTION_DO_NOT_SEND</option>
+                <option value="1">FACTORY_PAYMENT_PLUGIN_OFFLINE_EMAIL_NOTIFICATION_OPTION_SEND</option>
+                <option value="2">FACTORY_PAYMENT_PLUGIN_OFFLINE_EMAIL_NOTIFICATION_OPTION_SEND_ONLY</option>
+            </field>
+        </fieldset>
+    </fields>
+</form>

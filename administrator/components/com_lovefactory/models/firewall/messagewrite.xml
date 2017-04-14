@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="messagewrite" label="Compose message">
+    <asset type="view">compose</asset>
+
+    <fixed>
+        <rule>MessagesEnabled</rule>
+        <rule>Logged</rule>
+    </fixed>
+</section>

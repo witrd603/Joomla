@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- Payment Gateway Process -->
+    <!--<group>-->
+    <!--<controller name="gateway" />-->
+    <!--<permission value="filled" />-->
+    <!--</group>-->
+
+    <!-- Advanced Search -->
+    <group>
+        <view name="advanced"/>
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="advancedsearch"/>
+    </group>
+
+    <!-- Create Profile -->
+    <group>
+        <view name="createprofile"/>
+        <controller name="profile" task="create"/>
+
+        <permission value="createProfile"/>
+    </group>
+
+    <!-- Interactions -->
+    <group>
+        <controller name="interaction"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="interaction"/>
+    </group>
+
+    <!-- Interactions List -->
+    <group>
+        <view name="interactions"/>
+        <controller name="interactions"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="interactions"/>
+    </group>
+
+    <!-- Quick Search -->
+    <group>
+        <view name="search"/>
+        <!--<permission value="filled" />-->
+        <permission value="defaultMembership" type="quicksearch"/>
+    </group>
+
+    <!-- Rating Profiles -->
+    <group>
+        <controller name="rating"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="rating"/>
+    </group>
+
+    <!-- Ignore list -->
+    <group>
+        <view name="blocked"/>
+        <controller name="blacklist"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="blacklist"/>
+    </group>
+
+    <!-- Comments -->
+    <group>
+        <controller name="itemcomment"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="comment"/>
+
+    </group>
+
+    <group>
+        <view name="comments"/>
+
+        <permission value="privacy" type="comments"/>
+    </group>
+
+    <!-- Friends -->
+    <group>
+        <controller name="friend"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="friend"/>
+        <permission value="friendsEnabled"/>
+    </group>
+
+    <!-- Friends List -->
+    <group>
+        <view name="friends"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="friends"/>
+        <permission value="friendsEnabled"/>
+        <permission value="privacy" type="friends"/>
+    </group>
+
+    <!-- Photos -->
+    <group>
+        <view name="photos"/>
+        <view name="photo"/>
+        <controller name="photos"/>
+        <controller name="photo"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="photos"/>
+    </group>
+
+    <!-- Videos -->
+    <group>
+        <view name="videos"/>
+        <view name="video"/>
+        <controller name="videos"/>
+        <controller name="video"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="videos"/>
+    </group>
+
+    <!-- Inbox -->
+    <group>
+        <view name="inbox"/>
+        <controller name="inbox"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="inbox"/>
+    </group>
+
+    <!-- Outbox -->
+    <group>
+        <view name="outbox"/>
+        <controller name="outbox"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="outbox"/>
+    </group>
+
+    <!-- Compose Message -->
+    <group>
+        <view name="compose"/>
+        <controller name="message" task="send"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="messagewrite"/>
+    </group>
+
+    <!-- Read Message -->
+    <group>
+        <view name="message"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="messageread"/>
+    </group>
+
+    <!-- Profile Edit -->
+    <group>
+        <view name="edit"/>
+        <permission value="filled"/>
+    </group>
+
+    <!-- Profile View -->
+    <view name="profile">
+        <permission value="guestViewProfile"/>
+        <permission value="viewOwnProfile"/>
+        <permission value="defaultMembership" type="otherprofiles"/>
+    </view>
+
+    <!-- Profile Status -->
+    <group>
+        <controller name="status"/>
+        <permission value="defaultMembership" type="status"/>
+    </group>
+
+    <!-- Online Users -->
+    <group>
+        <view name="online"/>
+
+        <!--<permission value="filled" />-->
+        <permission value="defaultMembership" type="online"/>
+    </group>
+
+    <!-- Members map -->
+    <group>
+        <view name="membersmap"/>
+        <controller name="membersmap"/>
+
+        <permission value="googleMapsEnabled"/>
+        <permission value="membersMapEnabled"/>
+        <permission value="guestViewMembersMap"/>
+        <permission value="defaultMembership" type="membersmap"/>
+    </group>
+
+    <!-- Radius Search -->
+    <group>
+        <view name="radiussearch"/>
+        <controller name="radiussearch"/>
+
+        <permission value="googleMapsEnabled"/>
+        <permission value="radiusSearchEnabled"/>
+        <permission value="guestViewRadiusSearch"/>
+        <permission value="defaultMembership" type="radiussearch"/>
+    </group>
+
+    <!-- Profile Fillin -->
+    <group>
+        <view name="fillin"/>
+        <controller name="fillin"/>
+
+        <permission value="unfilled"/>
+    </group>
+
+    <!-- Profile Comments -->
+    <group>
+        <view name="comments"/>
+        <permission value="filled"/>
+        <permission value="commentsEnabled"/>
+    </group>
+
+    <!-- Messages related -->
+    <group>
+        <view name="inbox"/>
+        <view name="outbox"/>
+        <view name="compose"/>
+        <controller name="inbox"/>
+        <controller name="outbox"/>
+        <controller name="message"/>
+        <permission value="filled"/>
+        <permission value="messagesEnabled"/>
+    </group>
+
+    <!-- Interactions -->
+    <group>
+        <view name="interactions"/>
+        <controller name="interaction"/>
+        <controller name="interactions"/>
+        <permission value="filled"/>
+        <permission value="interactionsEnabled"/>
+    </group>
+
+    <!-- My Relationship -->
+    <group>
+        <view name="myrelationship"/>
+        <view name="dialog" layout="relationship"/>
+        <controller name="relationship"/>
+        <permission value="filled"/>
+        <permission value="relationshipsEnabled"/>
+    </group>
+
+    <!-- My Friends -->
+    <group>
+        <view name="myfriends"/>
+
+        <permission value="filled"/>
+        <permission value="defaultMembership" type="friend"/>
+        <permission value="friendsEnabled"/>
+    </group>
+
+    <!-- My Membership -->
+    <group>
+        <view name="mymembership"/>
+        <view name="mymemberships"/>
+
+        <permission value="filled"/>
+    </group>
+
+    <!-- Top Friends List -->
+    <group>
+        <view name="topfriends"/>
+        <controller name="friend" task="promote"/>
+        <permission value="filled"/>
+        <permission value="topFriendsEnabled"/>
+        <permission value="friendsEnabled"/>
+    </group>
+
+    <!-- Groups related -->
+    <group>
+        <view name="group"/>
+        <view name="groupbanned"/>
+        <view name="groupedit"/>
+        <view name="groupmembers"/>
+        <view name="groups"/>
+        <view name="groupthread"/>
+        <view name="groupthreadedit"/>
+        <view name="groupthreadeds"/>
+
+        <controller name="group"/>
+        <controller name="groupexclude"/>
+        <controller name="groupthread"/>
+
+        <permission value="filled"/>
+        <permission value="groupsEnabled"/>
+    </group>
+
+    <group>
+        <view name="signup"/>
+        <permission value="guest"/>
+        <permission value="registrationFormEnabled"/>
+    </group>
+
+    <!-- Activity -->
+    <group>
+        <view name="activity"/>
+        <controller name="activity"/>
+
+        <permission value="filled"/>
+        <permission value="activityEnabled"/>
+        <permission value="privacy" type="activity_stream"/>
+    </group>
+
+    <!-- Approvals -->
+    <group>
+        <view name="approvals"/>
+        <controller name="approvals"/>
+
+        <permission value="filled"/>
+    </group>
+
+    <!-- Invoices -->
+    <group>
+        <view name="invoice"/>
+        <view name="invoices"/>
+
+        <permission value="filled"/>
+        <permission value="invoicesEnabled"/>
+    </group>
+
+    <!-- Membership buy -->
+    <group>
+        <view name="membershipbuy"/>
+
+        <permission value="filled"/>
+    </group>
+
+    <!-- Settings -->
+    <group>
+        <view name="settings"/>
+        <controller name="settings"/>
+
+        <permission value="filled"/>
+    </group>
+
+    <!-- Profile rating -->
+    <group>
+        <controller name="rating"/>
+
+        <permission value="ratingsEnabled"/>
+    </group>
+</permissions>

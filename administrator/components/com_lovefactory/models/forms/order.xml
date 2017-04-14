@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="details" addfieldpath="/administrator/components/com_lovefactory/models/fields">
+
+        <field name="id" type="text" default="0"
+               readonly="true" class="readonly"
+               label="JGLOBAL_FIELD_ID_LABEL" description="JGLOBAL_FIELD_ID_DESC"/>
+
+        <field name="title" type="text" default=""
+               readonly="true" class="readonly"
+               label="COM_LOVEFACTORY_FORM_ORDER_LABEL_TITLE" description="COM_LOVEFACTORY_FORM_ORDER_DESC_TITLE"/>
+
+        <field name="user_id" type="user" default="0"
+               readonly="true" class="readonly"
+               label="COM_LOVEFACTORY_FORM_ORDER_LABEL_USER" description="COM_LOVEFACTORY_FORM_ORDER_DESC_USER"/>
+
+        <!--<field name="membership_id" type="membership" default="0"-->
+        <!--readonly="true" class="readonly"-->
+        <!--label="COM_LOVEFACTORY_FORM_ORDER_LABEL_MEMBERSHIP" description="COM_LOVEFACTORY_FORM_ORDER_DESC_MEMBERSHIP" />-->
+
+        <!--<field name="price_id" type="price" default="0"-->
+        <!--readonly="true" class="readonly"-->
+        <!--label="COM_LOVEFACTORY_FORM_ORDER_LABEL_PRICE" description="COM_LOVEFACTORY_FORM_ORDER_DESC_PRICE" />-->
+
+        <field name="amount" type="text" default="0"
+               readonly="true" class="readonly"
+               label="COM_LOVEFACTORY_FORM_ORDER_LABEL_AMOUNT" description="COM_LOVEFACTORY_FORM_ORDER_DESC_AMOUNT"/>
+
+        <field name="currency" type="text" default="0"
+               readonly="true" class="readonly"
+               label="COM_LOVEFACTORY_FORM_ORDER_LABEL_CURRENCY"
+               description="COM_LOVEFACTORY_FORM_ORDER_DESC_CURRENCY"/>
+
+        <field name="gateway" type="gateway" default="0"
+               readonly="true" class="readonly"
+               label="COM_LOVEFACTORY_FORM_ORDER_LABEL_GATEWAY" description="COM_LOVEFACTORY_FORM_ORDER_DESC_GATEWAY"/>
+
+        <field name="created_at" type="date" default="0" disabled="true"
+               readonly="true" class="readonly"
+               label="COM_LOVEFACTORY_FORM_ORDER_LABEL_CREATED_AT"
+               description="COM_LOVEFACTORY_FORM_ORDER_DESC_CREATED_AT"/>
+
+        <field name="paid" type="list" default="0"
+               label="COM_LOVEFACTORY_FORM_ORDER_LABEL_PAID" description="COM_LOVEFACTORY_FORM_ORDER_DESC_PAID">
+            <option value="0">COM_LOVEFACTORY_FORM_ORDER_PAID_OPTION_NOT_PAID</option>
+            <option value="1">COM_LOVEFACTORY_FORM_ORDER_PAID_OPTION_PAID</option>
+        </field>
+
+        <field name="status" type="list" default="10"
+               label="COM_LOVEFACTORY_FORM_ORDER_LABEL_STATUS" description="COM_LOVEFACTORY_FORM_ORDER_DESC_STATUS">
+            <option value="10">COM_LOVEFACTORY_ORDER_STATUS_PENDING</option>
+            <option value="20">COM_LOVEFACTORY_ORDER_STATUS_COMPLETED</option>
+            <option value="30">COM_LOVEFACTORY_ORDER_STATUS_FAILED</option>
+            <option value="40">COM_LOVEFACTORY_ORDER_STATUS_MANUAL_CHECK</option>
+        </field>
+
+    </fieldset>
+
+    <fieldset name="payments">
+        <field name="payments" type="payments"/>
+    </fieldset>
+</form>

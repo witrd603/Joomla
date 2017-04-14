@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+    <fields name="params">
+        <fieldset name="params">
+            <field name="search_mode" type="list" default="gallery">
+                <option value="gallery">COM_LOVEFACTORY_FORM_FIELD_PHOTOS_SEARCH_MODE_OPTION_GALLERY</option>
+                <option value="profile">COM_LOVEFACTORY_FORM_FIELD_PHOTOS_SEARCH_MODE_OPTION_PROFILE</option>
+            </field>
+
+        </fieldset>
+    </fields>
+</form>

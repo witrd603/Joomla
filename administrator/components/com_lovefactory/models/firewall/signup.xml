@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="signup" label="Registration">
+    <asset type="view">signup</asset>
+
+    <fixed>
+        <rule>Guest</rule>
+    </fixed>
+</section>

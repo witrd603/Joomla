@@ -1,0 +1,12 @@
+.view-activity blockquote {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.view-activity .actions {
+    margin-top: 10px;
+}
+
+.view-activity .actions a {
+    color: inherit;
+}

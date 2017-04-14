@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+    <fields name="params">
+        <fieldset name="params" subparams="interval,values">
+
+            <field name="type" type="list" default="interval">
+                <option value="interval">COM_LOVEFACTORY_FORM_FIELD_SLIDER_TYPE_INTERVAL</option>
+                <option value="values">COM_LOVEFACTORY_FORM_FIELD_SLIDER_TYPE_VALUES</option>
+            </field>
+
+        </fieldset>
+    </fields>
+
+
+    <fields name="params">
+        <fields name="interval">
+            <fieldset name="params_interval">
+                <field name="min" type="text" filter="integer"/>
+                <field name="max" type="text" filter="integer"/>
+                <field name="step" type="text" filter="integer"/>
+            </fieldset>
+        </fields>
+    </fields>
+
+
+    <fields name="params">
+        <fieldset name="params_values">
+            <field name="choices" type="FieldChoices" default="" filter="JFormFieldFieldChoices::filter"
+                   label="COM_LOVEFACTORY_FORM_FIELD_CHOICES_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_CHOICES_DESC"/>
+
+        </fieldset>
+    </fields>
+</form>

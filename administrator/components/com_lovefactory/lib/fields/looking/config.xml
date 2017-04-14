@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+    <fields name="params">
+        <fieldset name="params">
+            <field name="type" type="list" default="Select">
+                <option value="Select">Select</option>
+                <option value="Radio">Radio</option>
+                <option value="SelectMultiple">SelectMultiple</option>
+                <option value="Checkbox">Checkbox</option>
+            </field>
+
+            <field name="min_choices" type="text" default="0" size="5" filter="int"
+                   label="COM_LOVEFACTORY_FORM_FIELD_CHOICES_MIN_CHOICES_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_CHOICES_MIN_CHOICES_DESC"/>
+            <field name="max_choices" type="text" default="0" size="5" filter="int"
+                   label="COM_LOVEFACTORY_FORM_FIELD_CHOICES_MAX_CHOICES_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_CHOICES_MAX_CHOICES_DESC"/>
+
+            <field name="display_mode" type="list" default="line"
+                   label="COM_LOVEFACTORY_FORM_FIELD_DISPLAY_MODE_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_DISPLAY_MODE_DESC">
+                <option value="line">COM_LOVEFACTORY_FORM_FIELD_DISPLAY_MODE_LINE</option>
+                <option value="row">COM_LOVEFACTORY_FORM_FIELD_DISPLAY_MODE_ROW</option>
+            </field>
+
+            <field name="blank_choice" type="list" default="1"
+                   label="COM_LOVEFACTORY_FORM_FIELD_BLANK_CHOICE_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_BLANK_CHOICE_DESC">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+
+        </fieldset>
+    </fields>
+</form>

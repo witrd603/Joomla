@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.5" method="upgrade" client="site">
+  <name>Love Factory Users Statistics</name>
+  <description>MOD_LOVEFACTORY_USERS_STATISTICS_DESC_XML</description>
+  <files>
+    <filename module="mod_lovefactory_users_statistics">mod_lovefactory_users_statistics.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <languages>
+    <language tag="en-GB">en-GB.mod_lovefactory_users_statistics.ini</language>
+    <language tag="en-GB">en-GB.mod_lovefactory_users_statistics.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="moduleclass_sfx" type="text" default="" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"/>
+      </fieldset>
+    </fields>
+  </config>
+  <version>4.4.7</version>
+  <author>thePHPfactory</author>
+  <copyright>SKEPSIS Consult SRL</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>contact@thephpfactory.com</authorEmail>
+  <authorUrl>http://www.thephpfactory.com</authorUrl>
+  <url>http://www.thephpfactory.com</url>
+  <creationDate>May 2009</creationDate>
+</extension>

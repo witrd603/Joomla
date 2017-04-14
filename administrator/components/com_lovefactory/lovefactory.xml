@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.5" method="upgrade">
+  <name>com_lovefactory</name>
+  <version>4.4.7</version>
+  <description>Love Factory! Joomla Dating Component from thePHPfactory.com</description>
+  <languages folder="languages/frontend">
+    <language tag="en-GB">en-GB.com_lovefactory.ini</language>
+  </languages>
+  <scriptfile>script.php</scriptfile>
+  <install>
+    <sql>
+      <file charset="utf8" driver="mysql">sqls/install.mysql.utf8.sql</file>
+      <file charset="utf8" driver="postgresql">sqls/install.postgresql.sql</file>
+    </sql>
+  </install>
+  <uninstall>
+    <sql>
+      <file charset="utf8" driver="mysql">sqls/uninstall.mysql.utf8.sql</file>
+      <file charset="utf8" driver="postgresql">sqls/uninstall.postgresql.sql</file>
+    </sql>
+  </uninstall>
+  <update>
+    <schemas>
+      <schemapath type="mysql">sqls/updates/mysql</schemapath>
+    </schemas>
+  </update>
+  <media destination="com_lovefactory" folder="media">
+    <folder>storage</folder>
+    <filename>index.html</filename>
+  </media>
+  <files folder="frontend">
+    <folder>assets</folder>
+    <folder>controllers</folder>
+    <folder>html</folder>
+    <folder>lib</folder>
+    <folder>models</folder>
+    <folder>vendor</folder>
+    <folder>views</folder>
+    <filename>controller.php</filename>
+    <filename>cron_action.php</filename>
+    <filename>index.html</filename>
+    <filename>lovefactory.php</filename>
+    <filename>payment.php</filename>
+    <filename>permissions.xml</filename>
+    <filename>resizeIMG.php</filename>
+    <filename>router.php</filename>
+  </files>
+  <administration>
+    <menu>COM_LOVEFACTORY_COMPONENT_TITLE</menu>
+    <submenu>
+      <menu task="users">COM_LOVEFACTORY_USERS</menu>
+      <menu task="groups">COM_LOVEFACTORY_GROUPS</menu>
+      <menu task="approvals">COM_LOVEFACTORY_APPROVALS</menu>
+      <menu task="orders">COM_LOVEFACTORY_ORDERS</menu>
+      <menu task="payments">COM_LOVEFACTORY_PAYMENTS</menu>
+      <menu task="invoices">COM_LOVEFACTORY_INVOICES</menu>
+      <menu task="reports">COM_LOVEFACTORY_REPORTS</menu>
+      <menu task="configuration">COM_LOVEFACTORY_SETTINGS</menu>
+      <menu task="about">COM_LOVEFACTORY_ABOUT</menu>
+    </submenu>
+    <languages folder="languages/backend">
+      <language tag="en-GB">en-GB.com_lovefactory.ini</language>
+      <language tag="en-GB">en-GB.com_lovefactory.sys.ini</language>
+    </languages>
+    <files folder="backend">
+      <folder>assets</folder>
+      <folder>controllers</folder>
+      <folder>lib</folder>
+      <folder>models</folder>
+      <folder>payment</folder>
+      <folder>tables</folder>
+      <folder>views</folder>
+      <folder>sqls</folder>
+      <filename>lovefactory.php</filename>
+      <filename>banned_words.php</filename>
+      <filename>controller.php</filename>
+      <filename>index.html</filename>
+      <filename>notifications.xml</filename>
+      <filename>payments_log.txt</filename>
+      <filename>shoutbox_log.txt</filename>
+      <filename>settings.txt</filename>
+    </files>
+  </administration>
+  <author>thePHPfactory</author>
+  <copyright>SKEPSIS Consult SRL</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>contact@thephpfactory.com</authorEmail>
+  <authorUrl>http://www.thephpfactory.com</authorUrl>
+  <url>http://www.thephpfactory.com</url>
+  <creationDate>May 2009</creationDate>
+</extension>

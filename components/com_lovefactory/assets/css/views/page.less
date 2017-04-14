@@ -1,0 +1,247 @@
+span.required {
+  color: #ff0000;
+  font-weight: bold;
+  vertical-align: text-top;
+  margin-left: 2px;
+  font-size: large;
+}
+
+.lovefactory-page {
+
+  fieldset {
+    margin: 0;
+    padding: 15px;
+    border: 1px solid #dddddd;
+
+    + fieldset {
+      margin-top: 15px;
+    }
+
+    legend {
+      font-size: 14px;
+      font-weight: bold;
+      width: auto;
+      padding: 0 7px;
+      margin: 0;
+      border: 0;
+      line-height: inherit;
+    }
+  }
+
+  .control-group {
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &.no-label {
+      .controls {
+        margin: 0;
+      }
+    }
+
+    .control-field {
+      margin-bottom: 5px;
+    }
+
+    .control-label {
+      font-weight: bold;
+      width: auto;
+      max-width: 80px;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      word-wrap: break-word;
+    }
+
+    .controls {
+      margin-left: 100px;
+    }
+
+    @media (max-width: 480px) {
+      .controls {
+        margin-left: 0;
+      }
+
+      .control-label {
+        display: block;
+        margin-bottom: 3px;
+        max-width: 100%;
+      }
+
+      select {
+        max-width: 100px;
+        option {
+          max-width: 100px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .span12 {
+      .controls {
+        margin-left: 0;
+      }
+
+      .control-label {
+        display: block;
+        max-width: 100%;
+      }
+    }
+  }
+
+  label.checkbox {
+    margin: 0;
+    padding-top: 0;
+  }
+
+  textarea,
+  select,
+  input[type="password"],
+  input[type="text"] {
+    width: 100%;
+    max-width: 100%;
+    padding: 3px;
+    font-size: inherit;
+    font-family: inherit;
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+
+  select,
+  input[type="password"],
+  input[type="text"] {
+    height: 26px;
+  }
+
+  select[multiple="multiple"] {
+    height: auto;
+    min-height: 100px;
+  }
+
+  select {
+    width: auto;
+    max-width: 100%;
+
+    option {
+      max-width: 200px;
+    }
+  }
+
+  ul.field-info {
+    line-height: normal;
+
+    li {
+      line-height: normal;
+      display: inline-block;
+
+      &:empty {
+        display: none;
+      }
+
+      span.fa {
+        font-size: 14px;
+        vertical-align: middle;
+      }
+
+      .lock-status {
+        color: #cc0000;
+      }
+
+      .description {
+        cursor: pointer;
+      }
+
+      .privacy {
+        select {
+          padding: 0;
+          height: auto;
+          line-height: normal;
+          display: none;
+          vertical-align: middle;
+        }
+      }
+
+      .locked-privacy {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .field-error {
+    color: #cc0000;
+    margin-bottom: 5px;
+
+    span.fa {
+      margin-right: 5px;
+    }
+  }
+
+  .actions {
+    margin-top: 10px;
+    background-color: #f6f6f6;
+    padding: 3px 10px;
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  div.lovefactory-field-radio,
+  div.lovefactory-field-checkbox {
+    label {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+      padding: 0;
+    }
+
+    input[type="radio"] {
+      margin: 0 5px 3px 0;
+    }
+
+    input[type="checkbox"] {
+      margin: 2px 5px 0 0;
+    }
+
+    &.display-line {
+      label {
+        margin-right: 5px;
+      }
+    }
+
+    &.display-row {
+      label {
+        display: block;
+      }
+    }
+  }
+
+  .lovefactory-field-error {
+    border-color: red;
+  }
+
+  div.error-username-exists,
+  div.error-email-exists {
+    color: red;
+    font-size: 11px;
+    margin-top: 3px;
+    line-height: normal;
+  }
+}
+
+&.static {
+  .lovefactory-page {
+    .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+      width: auto;
+    }
+  }
+}
+

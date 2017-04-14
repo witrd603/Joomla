@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="membershipbuy" label="Membership purchase">
+    <asset type="view">membershipbuy</asset>
+
+    <fixed>
+        <rule>Logged</rule>
+    </fixed>
+</section>

@@ -1,0 +1,57 @@
+.item-comments {
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .media {
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px;
+
+    .media-object {
+      max-width: 64px;
+    }
+
+    .media-body {
+      padding: 5px 10px 0 10px;
+      overflow: hidden;
+
+      a.username {
+        display: inline-block;
+        font-weight: bold;
+      }
+
+      div.pending-warning {
+        display: inline-block;
+      }
+    }
+
+    .message-info {
+      a {
+        display: inline-block;
+      }
+
+      i.factory-icon {
+        display: none;
+      }
+    }
+
+    .message-content {
+      margin-top: 9px;
+    }
+
+    &:nth-child(2n+1) {
+      background-color: #f6f6f6;
+    }
+
+    .muted {
+      a {
+        color: inherit;
+      }
+    }
+
+    &.pending-approval {
+      background-color: #f2dede;
+    }
+  }
+}

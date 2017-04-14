@@ -1,0 +1,83 @@
+.lovefactory-infobar-wrapper {
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    background-color: #EBEEF4;
+    padding: 7px 15px 7px 7px;
+    border: 1px solid #999999;
+    border-bottom-width: 0;
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);*/
+    box-shadow: 0 -2px 10px -7px black inset;
+    border-radius: 2px 2px 0 0;
+    z-index: 9999;
+}
+
+.lovefactory-infobar-top {
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    top: 0;
+    bottom: inherit;
+    /*box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);*/
+    box-shadow: 0 2px 10px -7px black inset;
+    border-radius: 0 0 2px 2px;
+}
+
+#main .lovefactory-infobar-wrapper a,
+#main .lovefactory-infobar-wrapper a:hover,
+.lovefactory-infobar-wrapper a,
+.lovefactory-infobar-wrapper a:hover {
+    color: #666666;
+}
+
+.no-labels {
+    padding: 7px 10px 7px 14px;
+}
+
+.no-labels a span {
+    display: none;
+}
+
+.lovefactory-infobar-wrapper i.factory-icon {
+    margin-left: 10px;
+}
+
+.no-labels i.factory-icon {
+    margin-left: 0;
+}
+
+.lovefactory-infobar-wrapper .lovefactory-infobar-spacer {
+    display: inline-block;
+    width: 20px;
+}
+
+a.lovefactory-infobar-notifications span,
+a.lovefactory-infobar-interactions span,
+a.lovefactory-infobar-messages span,
+a.lovefactory-infobar-requests span {
+    display: inline;
+    left: 7px;
+    position: absolute;
+    top: -5px;
+}
+
+a.lovefactory-infobar-notifications,
+a.lovefactory-infobar-interactions,
+a.lovefactory-infobar-messages,
+a.lovefactory-infobar-requests {
+    position: relative;
+}
+
+.lovefactory-infobar-wrapper .factory-icon {
+    margin-right: 0;
+}
+
+@media (max-width: 480px) {
+    .lovefactory-infobar-wrapper .lovefactory-infobar-spacer {
+        display: none;
+    }
+
+    .lovefactory-infobar-wrapper {
+        padding: 4px 7px;
+        right: 10px;
+    }
+}

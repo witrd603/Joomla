@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="system" method="upgrade">
+  <name>The Factory Token Authentification</name>
+  <description>The Factory Token Authentification Plugin</description>
+  <files>
+    <filename plugin="factorytokenauth">factorytokenauth.php</filename>
+  </files>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="valability" type="text" default="30" label="Token valability" description="Enter in days the token valability"/>
+        <field name="name" type="text" default="token" label="Token variable name" description="No spaces or special characters!"/>
+      </fieldset>
+    </fields>
+  </config>
+  <version>4.4.7</version>
+  <author>thePHPfactory</author>
+  <copyright>SKEPSIS Consult SRL</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>contact@thephpfactory.com</authorEmail>
+  <authorUrl>http://www.thephpfactory.com</authorUrl>
+  <url>http://www.thephpfactory.com</url>
+  <creationDate>May 2009</creationDate>
+</extension>

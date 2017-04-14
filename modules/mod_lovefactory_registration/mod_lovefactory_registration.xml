@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.5" method="upgrade" client="site">
+  <name>Love Factory Registration</name>
+  <files>
+    <filename module="mod_lovefactory_registration">mod_lovefactory_registration.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <languages>
+    <language tag="en-GB">en-GB.mod_lovefactory_registration.ini</language>
+    <language tag="en-GB">en-GB.mod_lovefactory_registration.sys.ini</language>
+  </languages>
+  <version>4.4.7</version>
+  <author>thePHPfactory</author>
+  <copyright>SKEPSIS Consult SRL</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>contact@thephpfactory.com</authorEmail>
+  <authorUrl>http://www.thephpfactory.com</authorUrl>
+  <url>http://www.thephpfactory.com</url>
+  <creationDate>May 2009</creationDate>
+</extension>

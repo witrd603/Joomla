@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="relationship" label="Relationship">
+    <asset type="view">myrelationship</asset>
+
+    <fixed>
+        <rule>RelationshipsEnabled</rule>
+        <rule>Logged</rule>
+    </fixed>
+</section>

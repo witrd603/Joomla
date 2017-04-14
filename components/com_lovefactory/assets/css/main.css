@@ -1,0 +1,1050 @@
+.lovefactory-view ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lovefactory-view h1.heading {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.lovefactory-view h1.heading:empty {
+    display: none;
+}
+
+.lovefactory-view form {
+    margin: 0;
+    padding: 0;
+}
+
+.lovefactory-view .filters {
+    color: #999999;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.lovefactory-view .filters label {
+    display: inline-block;
+}
+
+.lovefactory-view .filters select,
+.lovefactory-view .filters input {
+    width: auto;
+    margin: 0;
+}
+
+.lovefactory-view .text-success {
+    color: #3c763d;
+}
+
+.lovefactory-view .text-danger {
+    color: #a94442;
+}
+
+.lovefactory-view table thead th {
+    background-color: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+}
+
+.lovefactory-view table input[type="checkbox"] {
+    margin: 0;
+}
+
+.lovefactory-view table td.right {
+    text-align: right;
+}
+
+.lovefactory-view .batch-label {
+    color: #999999;
+}
+
+.lovefactory-view div.pagination:empty {
+    display: none;
+}
+
+.lovefactory-view div.pagination span.pagenav {
+    color: #999999;
+}
+
+.lovefactory-view .well {
+    margin-bottom: 15px;
+}
+
+.lovefactory-view .well h3 {
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.lovefactory-view div.actions a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.lovefactory-view .lovefactory-thumbnail {
+    background: no-repeat center center;
+    max-width: 100%;
+}
+
+.lovefactory-view a,
+.lovefactory-view a:hover,
+.lovefactory-view a:active,
+.lovefactory-view a:focus {
+    outline: none;
+}
+
+.lovefactory-view.view-module-search.view-search .control-group label.control-label {
+    float: none;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+.lovefactory-view.view-module-search.view-search .control-group .controls {
+    margin: 0;
+}
+
+.lovefactory-view span.required {
+    color: #ff0000;
+    font-weight: bold;
+    vertical-align: text-top;
+    margin-left: 2px;
+    font-size: large;
+}
+
+.lovefactory-view .lovefactory-page fieldset {
+    margin: 0;
+    padding: 15px;
+    border: 1px solid #dddddd;
+}
+
+.lovefactory-view .lovefactory-page fieldset + fieldset {
+    margin-top: 15px;
+}
+
+.lovefactory-view .lovefactory-page fieldset legend {
+    font-size: 14px;
+    font-weight: bold;
+    width: auto;
+    padding: 0 7px;
+    margin: 0;
+    border: 0;
+    line-height: inherit;
+}
+
+.lovefactory-view .lovefactory-page .control-group {
+    margin-bottom: 5px;
+}
+
+.lovefactory-view .lovefactory-page .control-group:last-child {
+    margin-bottom: 0;
+}
+
+.lovefactory-view .lovefactory-page .control-group.no-label .controls {
+    margin: 0;
+}
+
+.lovefactory-view .lovefactory-page .control-group .control-field {
+    margin-bottom: 5px;
+}
+
+.lovefactory-view .lovefactory-page .control-group .control-label {
+    font-weight: bold;
+    width: auto;
+    max-width: 80px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+.lovefactory-view .lovefactory-page .control-group .controls {
+    margin-left: 100px;
+}
+
+@media (max-width: 480px) {
+    .lovefactory-view .lovefactory-page .control-group .controls {
+        margin-left: 0;
+    }
+
+    .lovefactory-view .lovefactory-page .control-group .control-label {
+        display: block;
+        margin-bottom: 3px;
+        max-width: 100%;
+    }
+
+    .lovefactory-view .lovefactory-page .control-group select {
+        max-width: 100px;
+    }
+
+    .lovefactory-view .lovefactory-page .control-group select option {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .lovefactory-view .lovefactory-page .span12 .controls {
+        margin-left: 0;
+    }
+
+    .lovefactory-view .lovefactory-page .span12 .control-label {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.lovefactory-view .lovefactory-page label.checkbox {
+    margin: 0;
+    padding-top: 0;
+}
+
+.lovefactory-view .lovefactory-page textarea,
+.lovefactory-view .lovefactory-page select,
+.lovefactory-view .lovefactory-page input[type="password"],
+.lovefactory-view .lovefactory-page input[type="text"] {
+    width: 100%;
+    max-width: 100%;
+    padding: 3px;
+    font-size: inherit;
+    font-family: inherit;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.lovefactory-view .lovefactory-page select,
+.lovefactory-view .lovefactory-page input[type="password"],
+.lovefactory-view .lovefactory-page input[type="text"] {
+    height: 26px;
+}
+
+.lovefactory-view .lovefactory-page select[multiple="multiple"] {
+    height: auto;
+    min-height: 100px;
+}
+
+.lovefactory-view .lovefactory-page select {
+    width: auto;
+    max-width: 100%;
+}
+
+.lovefactory-view .lovefactory-page select option {
+    max-width: 200px;
+}
+
+.lovefactory-view .lovefactory-page ul.field-info {
+    line-height: normal;
+}
+
+.lovefactory-view .lovefactory-page ul.field-info li {
+    line-height: normal;
+    display: inline-block;
+}
+
+.lovefactory-view .lovefactory-page ul.field-info li:empty {
+    display: none;
+}
+
+.lovefactory-view .lovefactory-page ul.field-info li span.fa {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.lovefactory-view .lovefactory-page ul.field-info li .lock-status {
+    color: #cc0000;
+}
+
+.lovefactory-view .lovefactory-page ul.field-info li .description {
+    cursor: pointer;
+}
+
+.lovefactory-view .lovefactory-page ul.field-info li .privacy select {
+    padding: 0;
+    height: auto;
+    line-height: normal;
+    display: none;
+    vertical-align: middle;
+}
+
+.lovefactory-view .lovefactory-page ul.field-info li .locked-privacy {
+    cursor: pointer;
+}
+
+.lovefactory-view .lovefactory-page .field-error {
+    color: #cc0000;
+    margin-bottom: 5px;
+}
+
+.lovefactory-view .lovefactory-page .field-error span.fa {
+    margin-right: 5px;
+}
+
+.lovefactory-view .lovefactory-page .actions {
+    margin-top: 10px;
+    background-color: #f6f6f6;
+    padding: 3px 10px;
+}
+
+.lovefactory-view .lovefactory-page .actions:empty {
+    display: none;
+}
+
+.lovefactory-view .lovefactory-page div.lovefactory-field-radio label,
+.lovefactory-view .lovefactory-page div.lovefactory-field-checkbox label {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.lovefactory-view .lovefactory-page div.lovefactory-field-radio input[type="checkbox"],
+.lovefactory-view .lovefactory-page div.lovefactory-field-checkbox input[type="checkbox"],
+.lovefactory-view .lovefactory-page div.lovefactory-field-radio input[type="radio"],
+.lovefactory-view .lovefactory-page div.lovefactory-field-checkbox input[type="radio"] {
+    padding: 0;
+}
+
+.lovefactory-view .lovefactory-page div.lovefactory-field-radio input[type="radio"],
+.lovefactory-view .lovefactory-page div.lovefactory-field-checkbox input[type="radio"] {
+    margin: 0 5px 3px 0;
+}
+
+.lovefactory-view .lovefactory-page div.lovefactory-field-radio input[type="checkbox"],
+.lovefactory-view .lovefactory-page div.lovefactory-field-checkbox input[type="checkbox"] {
+    margin: 2px 5px 0 0;
+}
+
+.lovefactory-view .lovefactory-page div.lovefactory-field-radio.display-line label,
+.lovefactory-view .lovefactory-page div.lovefactory-field-checkbox.display-line label {
+    margin-right: 5px;
+}
+
+.lovefactory-view .lovefactory-page div.lovefactory-field-radio.display-row label,
+.lovefactory-view .lovefactory-page div.lovefactory-field-checkbox.display-row label {
+    display: block;
+}
+
+.lovefactory-view .lovefactory-page .lovefactory-field-error {
+    border-color: red;
+}
+
+.lovefactory-view .lovefactory-page div.error-username-exists,
+.lovefactory-view .lovefactory-page div.error-email-exists {
+    color: red;
+    font-size: 11px;
+    margin-top: 3px;
+    line-height: normal;
+}
+
+.lovefactory-view.static .lovefactory-page .span1,
+.lovefactory-view.static .lovefactory-page .span2,
+.lovefactory-view.static .lovefactory-page .span3,
+.lovefactory-view.static .lovefactory-page .span4,
+.lovefactory-view.static .lovefactory-page .span5,
+.lovefactory-view.static .lovefactory-page .span6,
+.lovefactory-view.static .lovefactory-page .span7,
+.lovefactory-view.static .lovefactory-page .span8,
+.lovefactory-view.static .lovefactory-page .span9,
+.lovefactory-view.static .lovefactory-page .span10,
+.lovefactory-view.static .lovefactory-page .span11,
+.lovefactory-view.static .lovefactory-page .span12 {
+    width: auto;
+}
+
+.lovefactory-view #lovefactory-toolbar {
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #dddddd;
+    border-radius: 5px 5px 0 0;
+    padding: 15px 0 0 0;
+    box-shadow: 0 5px 9px -9px #000000;
+}
+
+.lovefactory-view #lovefactory-toolbar .counter {
+    position: absolute;
+    top: -6px;
+    right: 3px;
+}
+
+.lovefactory-view #lovefactory-toolbar .counter.icon-counter-0 {
+    display: none;
+}
+
+.lovefactory-view #lovefactory-toolbar ul {
+    width: 100%;
+    float: left;
+    border-bottom: 5px solid #CC0000;
+    padding: 0;
+    margin: 0;
+}
+
+.lovefactory-view #lovefactory-toolbar ul li {
+    float: left;
+    background-color: #444444;
+    margin-right: 3px;
+    list-style-type: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.lovefactory-view #lovefactory-toolbar ul li.active {
+    background-color: #CC0000;
+    box-shadow: 0 -3px 7px -7px #000000 inset;
+}
+
+.lovefactory-view #lovefactory-toolbar ul li.first {
+    margin-left: 15px;
+}
+
+.lovefactory-view #lovefactory-toolbar ul li a {
+    padding: 3px 20px;
+    display: block;
+    background-color: transparent;
+    color: #eeeeee;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #506522;
+    position: relative;
+}
+
+.lovefactory-view #lovefactory-toolbar ul li a i.factory-icon {
+    margin: 0;
+}
+
+@media (max-width: 480px) {
+    .lovefactory-view #lovefactory-toolbar ul li.first {
+        margin-left: 5px;
+    }
+
+    .lovefactory-view #lovefactory-toolbar ul li a {
+        padding: 3px 8px;
+    }
+}
+
+.lovefactory-view .lovefactory-search-results .result {
+    margin-bottom: 10px;
+}
+
+.lovefactory-view .lovefactory-search-results .results_limited {
+    text-align: center;
+    background-color: #cc0000;
+    color: #eeeeee;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.lovefactory-view .map {
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.lovefactory-view.view-activity blockquote {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.lovefactory-view.view-activity .actions {
+    margin-top: 10px;
+}
+
+.lovefactory-view.view-activity .actions a {
+    color: inherit;
+}
+
+.lovefactory-view.view-search .actions,
+.lovefactory-view.view-advanced .actions {
+    margin-top: 20px;
+}
+
+.lovefactory-view .item-comments textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.lovefactory-view .item-comments .media {
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px;
+}
+
+.lovefactory-view .item-comments .media .media-object {
+    max-width: 64px;
+}
+
+.lovefactory-view .item-comments .media .media-body {
+    padding: 5px 10px 0 10px;
+    overflow: hidden;
+}
+
+.lovefactory-view .item-comments .media .media-body a.username {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.lovefactory-view .item-comments .media .media-body div.pending-warning {
+    display: inline-block;
+}
+
+.lovefactory-view .item-comments .media .message-info a {
+    display: inline-block;
+}
+
+.lovefactory-view .item-comments .media .message-info i.factory-icon {
+    display: none;
+}
+
+.lovefactory-view .item-comments .media .message-content {
+    margin-top: 9px;
+}
+
+.lovefactory-view .item-comments .media:nth-child(2n+1) {
+    background-color: #f6f6f6;
+}
+
+.lovefactory-view .item-comments .media .muted a {
+    color: inherit;
+}
+
+.lovefactory-view .item-comments .media.pending-approval {
+    background-color: #f2dede;
+}
+
+.lovefactory-view.view-edit .actions,
+.lovefactory-view.view-fillin .actions {
+    margin-top: 20px;
+}
+
+.lovefactory-view.view-edit button,
+.lovefactory-view.view-fillin button {
+    margin-bottom: 5px;
+}
+
+.lovefactory-view.view-edit .lovefactory-page .control-group {
+    margin-bottom: 9px;
+}
+
+.lovefactory-view.view-group .span8 {
+    margin-bottom: 10px;
+}
+
+.lovefactory-view.view-groups .filters input,
+.lovefactory-view.view-groups .filters select {
+    max-width: 100px;
+}
+
+.lovefactory-view.view-groupthreadedit input,
+.lovefactory-view.view-groupthreadedit textarea {
+    width: 90%;
+}
+
+.lovefactory-view.view-groupthread .comment {
+    border-bottom: 1px solid #eeeeee;
+    min-height: 50px;
+    padding: 20px;
+}
+
+.lovefactory-view.view-groupthread .comments li.alternate {
+    background-color: #f6f6f6;
+}
+
+.lovefactory-view.view-groupthread .comments img {
+    max-width: 50px;
+    float: left;
+}
+
+.lovefactory-view.view-groupthread .comment .message {
+    margin-left: 70px;
+}
+
+.lovefactory-view.view-groupthread .comment .info {
+    color: #999999;
+    margin-top: 10px;
+}
+
+.lovefactory-view.view-groupthread .info .right {
+    float: right;
+}
+
+.lovefactory-view.view-groupthread #main .comment .info a,
+.lovefactory-view.view-groupthread .comment .info a {
+    color: #999999;
+}
+
+.lovefactory-view.view-groupthread textarea {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.lovefactory-view.view-groupthread .buttons {
+    margin-top: 10px;
+}
+
+.lovefactory-view.view-groupthread .details-thread {
+    margin-bottom: 10px;
+}
+
+.lovefactory-view.view-inbox .unread {
+    font-weight: bold;
+}
+
+.lovefactory-view.view-inbox div.username,
+.lovefactory-view.view-outbox div.username {
+    width: 130px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.lovefactory-view.view-inbox div.no-results,
+.lovefactory-view.view-outbox div.no-results {
+    margin-bottom: 10px;
+}
+
+.lovefactory-view.view-message .actions {
+    padding-bottom: 5px;
+    margin: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+    overflow: hidden;
+}
+
+.lovefactory-view.view-compose input,
+.lovefactory-view.view-compose textarea {
+    width: 90%;
+}
+
+.lovefactory-view.view-myfriends .lovefactory-page,
+.lovefactory-view.view-friends .lovefactory-page,
+.lovefactory-view.view-requests .lovefactory-page,
+.lovefactory-view.view-topfriends .lovefactory-page {
+    margin-bottom: 20px;
+}
+
+.lovefactory-view.view-myfriends input.search-box,
+.lovefactory-view.view-topfriends input.search-box {
+    margin: 0 10px 0 0;
+    background: transparent url('../images/icons/magnifier.png') no-repeat 5px center;
+    padding-left: 25px;
+}
+
+.lovefactory-view.view-myfriends input.search-loading,
+.lovefactory-view.view-topfriends input.search-loading {
+    background-image: url('../images/icons/loader.gif');
+}
+
+.lovefactory-view.view-myfriends label,
+.lovefactory-view.view-topfriends label {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    vertical-align: middle;
+}
+
+.lovefactory-view.view-myfriends input[type="checkbox"],
+.lovefactory-view.view-topfriends input[type="checkbox"] {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.lovefactory-view.view-myfriends div#myfriends-results,
+.lovefactory-view.view-topfriends div#myfriends-results {
+    margin-top: 15px;
+}
+
+.lovefactory-view.view-photo .media .top-info,
+.lovefactory-view.view-video .media .top-info {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.lovefactory-view.view-photo .media .media-wrapper,
+.lovefactory-view.view-video .media .media-wrapper {
+    text-align: center;
+    background-color: #000000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1px;
+}
+
+.lovefactory-view.view-photo .media .media-wrapper .information,
+.lovefactory-view.view-video .media .media-wrapper .information {
+    text-align: left;
+    background-color: #666666;
+    border-top: 1px solid #999999;
+    color: #f6f6f6;
+    padding: 10px;
+}
+
+.lovefactory-view.view-photo .media .media-wrapper .information a,
+.lovefactory-view.view-video .media .media-wrapper .information a {
+    color: #333333;
+}
+
+.lovefactory-view.view-photo .media .media-wrapper .information .title,
+.lovefactory-view.view-video .media .media-wrapper .information .title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.lovefactory-view.view-photo .media .media-wrapper img,
+.lovefactory-view.view-video .media .media-wrapper img {
+    max-width: 100%;
+}
+
+.lovefactory-view.view-photo .media .media-nav,
+.lovefactory-view.view-video .media .media-nav {
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.lovefactory-view.view-photos label,
+.lovefactory-view.view-videos label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.lovefactory-view.view-photos input[type="checkbox"],
+.lovefactory-view.view-videos input[type="checkbox"] {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.lovefactory-view.view-photos .filters {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.lovefactory-view.view-photos .photo {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.lovefactory-view.view-photos .photo input[type="checkbox"] {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.lovefactory-view.view-photos .move-handle {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.lovefactory-view.view-photos .move-handle i.factory-icon {
+    margin: 0;
+}
+
+.lovefactory-view.view-photos .photo .thumbnail {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #333333;
+    background: #ffffff no-repeat center center;
+}
+
+.lovefactory-view.view-photos .photo .thumbnail:hover,
+.lovefactory-view.view-photos .photo .thumbnail:focus,
+.lovefactory-view.view-photos .photo .thumbnail:active {
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.lovefactory-view.view-photos .info {
+    overflow: hidden;
+    margin-top: 5px;
+    background-color: #ffffff;
+}
+
+.lovefactory-view.view-photos .actions {
+    clear: both;
+}
+
+.lovefactory-view.view-photos .photo .shader {
+    position: absolute;
+    background-color: #000000;
+    height: 26px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.lovefactory-view.view-photos .profile-photo {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+}
+
+.lovefactory-view.view-photos .thumbnail {
+    display: block;
+}
+
+.lovefactory-view.view-photos .no-items {
+    margin-bottom: 20px;
+}
+
+.lovefactory-view.view-photos #lovefactory-dialog ul.files li {
+    padding: 5px;
+}
+
+.lovefactory-view.view-photos #lovefactory-dialog li:nth-child(2n) {
+    background-color: #eeeeee;
+}
+
+.lovefactory-view.view-photos #main .upload-status,
+.lovefactory-view.view-photos .upload-status {
+    padding: 10px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.lovefactory-view.view-photos .photo {
+    min-height: 137px;
+}
+
+.lovefactory-view.view-videos .videos {
+    clear: both;
+    float: left;
+}
+
+.lovefactory-view.view-videos .filters {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.lovefactory-view.view-videos .video {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.lovefactory-view.view-videos .video input[type="checkbox"] {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.lovefactory-view.view-videos .move-handle {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.lovefactory-view.view-videos .move-handle i.factory-icon {
+    margin: 0;
+}
+
+.lovefactory-view.view-videos .video .thumbnail {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #333333;
+    background: #ffffff no-repeat center center;
+}
+
+.lovefactory-view.view-videos .video .thumbnail:hover,
+.lovefactory-view.view-videos .video .thumbnail:focus,
+.lovefactory-view.view-videos .video .thumbnail:active {
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.lovefactory-view.view-videos .info {
+    overflow: hidden;
+    margin-top: 5px;
+    background-color: #ffffff;
+}
+
+.lovefactory-view.view-videos .actions {
+    clear: both;
+}
+
+.lovefactory-view.view-videos .video .shader {
+    position: absolute;
+    background-color: #000000;
+    height: 26px;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.lovefactory-view.view-videos .thumbnail {
+    display: block;
+}
+
+.lovefactory-view.view-videos .no-items {
+    margin-bottom: 20px;
+}
+
+.lovefactory-view.view-videos .video {
+    min-height: 137px;
+}
+
+.lovefactory-view.view-profile .status-update input#user-status-update {
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 28px;
+}
+
+.lovefactory-view.view-profile .ratings .my-rating,
+.lovefactory-view.view-profile .ratings .latest-votes {
+    margin-top: 15px;
+}
+
+.lovefactory-view.view-profile .ratings .profile-vote {
+    margin-bottom: 15px;
+}
+
+.lovefactory-view.view-profile .ratings .lovefactory-rating-star i.factory-icon {
+    margin: 0;
+}
+
+.lovefactory-view.view-profile .ratings .profile-rating,
+.lovefactory-view.view-profile .ratings .my-rating {
+    text-align: center;
+}
+
+.lovefactory-view.view-profile .ratings .latest-votes .vote {
+    display: inline-block;
+    width: 40px;
+}
+
+.lovefactory-view.view-profile .ratings .my-rating b,
+.lovefactory-view.view-profile .ratings .profile-rating b {
+    font-size: large;
+}
+
+@media (max-width: 979px) and (min-width: 767px) {
+    .lovefactory-view .lovefactory-page .control-group .control-label {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .lovefactory-view .lovefactory-page .control-group .controls {
+        margin-left: 0;
+        clear: both;
+    }
+}
+
+.lovefactory-view.view-memberships table.memberships {
+    border: 0;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.lovefactory-view.view-memberships td,
+.lovefactory-view.view-memberships th {
+    padding: 10px 5px;
+    vertical-align: top;
+}
+
+.lovefactory-view.view-memberships td {
+    text-align: center;
+}
+
+.lovefactory-view.view-memberships thead th {
+    text-align: center;
+    width: 80px;
+    padding: 0;
+}
+
+.lovefactory-view.view-memberships table.memberships tbody th {
+    text-align: left;
+    padding: 10px;
+    background-color: #eeeeee;
+    width: 200px;
+}
+
+.lovefactory-view.view-memberships thead th,
+.lovefactory-view.view-memberships thead td {
+    background-color: #dddddd;
+    padding: 10px 5px;
+}
+
+.lovefactory-view.view-memberships tbody th,
+.lovefactory-view.view-memberships tbody td {
+    border-bottom: 1px solid #cccccc;
+}
+
+.lovefactory-view.view-memberships tbody tr.alternate td {
+    background-color: #f6f6f6;
+}
+
+.lovefactory-view.view-memberships .prices tbody td.right {
+    text-align: right;
+}
+
+.lovefactory-view.view-memberships #main td a.gender,
+.lovefactory-view.view-memberships td a.gender {
+    display: inline-block;
+}
+
+.lovefactory-view.view-memberships #main td a.gender + a,
+.lovefactory-view.view-memberships td a.gender + a {
+    margin-top: 5px;
+}
+
+.lovefactory-view.view-memberships small.gender {
+    display: block;
+}
+
+.lovefactory-view.view-mymembership table th {
+    background-color: #eeeeee;
+    padding: 7px 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+.lovefactory-view.view-mymembership table td {
+    padding: 7px 10px;
+    text-align: center;
+    width: 200px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.lovefactory-view.view-mymembership div.actions {
+    margin-top: 15px;
+}
+
+.lovefactory-view .google-maps-marker {
+    white-space: nowrap;
+    border: none;
+    position: absolute;
+}
+
+.lovefactory-view .google-maps-marker-user {
+    background-color: #cc0000;
+    padding: 1px 3px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px #aaaaaa;
+    color: #ffffff;
+}
+
+.lovefactory-view .google-maps-marker a {
+    color: #ffffff !important;
+}
+
+.lovefactory-view .google-maps-markers-container div {
+    margin-bottom: 2px;
+}
+
+.lovefactory-view .google-maps-marker-pagination {
+    min-width: 120px;
+    min-height: 20px;
+    padding-bottom: 5px;
+}
+
+.lovefactory-view .google-maps-marker-pagination a {
+    color: #000000 !important;
+    padding: 3px 10px;
+}
+
+/* Beez3 fix */
+div#all .lovefactory-view .lovefactory-page .control-group .control-label {
+    max-width: 90px;
+}

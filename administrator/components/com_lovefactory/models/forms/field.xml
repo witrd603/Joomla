@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+    <fieldset name="details">
+        <field name="id" type="text" default="0"
+               readonly="true" class="readonly"
+               label="JGLOBAL_FIELD_ID_LABEL" description="JGLOBAL_FIELD_ID_DESC"/>
+
+        <field name="title" type="text" default="" size="50" required="true"
+               label="COM_LOVEFACTORY_FORM_FIELD_TITLE_LABEL" description="COM_LOVEFACTORY_FORM_FIELD_TITLE_DESC"/>
+
+        <field name="type" type="FieldType" required="true"
+               label="COM_LOVEFACTORY_FORM_FIELD_TYPE_LABEL" description="COM_LOVEFACTORY_FORM_FIELD_TYPE_DESC"/>
+
+        <field name="published" type="list" default="0" required="true"
+               label="COM_LOVEFACTORY_FORM_FIELD_PUBLISHED_LABEL"
+               description="COM_LOVEFACTORY_FORM_FIELD_PUBLISHED_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+    </fieldset>
+
+    <fieldset name="settings">
+        <field name="required" type="list" default="0"
+               label="COM_LOVEFACTORY_FORM_FIELD_REQUIRED_LABEL" description="COM_LOVEFACTORY_FORM_FIELD_REQUIRED_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field name="visibility" type="list" default="1"
+               label="COM_LOVEFACTORY_FORM_FIELD_VISIBILITY_LABEL"
+               description="COM_LOVEFACTORY_FORM_FIELD_VISIBILITY_DESC">
+            <option value="0">COM_LOVEFACTORY_FORM_FIELD_VISIBILITY_OPTION_PRIVATE</option>
+            <option value="1">COM_LOVEFACTORY_FORM_FIELD_VISIBILITY_OPTION_PUBLIC</option>
+            <option value="2">COM_LOVEFACTORY_FORM_FIELD_VISIBILITY_OPTION_FRIENDS</option>
+        </field>
+
+        <field name="user_visibility" type="list" default="0"
+               label="COM_LOVEFACTORY_FORM_FIELD_USER_VISIBILITY_LABEL"
+               description="COM_LOVEFACTORY_FORM_FIELD_USER_VISIBILITY_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field name="admin_only_viewable" type="list" default="0"
+               label="COM_LOVEFACTORY_FORM_FIELD_ADMIN_ONLY_VIEWABLE_LABEL"
+               description="COM_LOVEFACTORY_FORM_FIELD_ADMIN_ONLY_VIEWABLE_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field name="admin_only_editable" type="list" default="0"
+               label="COM_LOVEFACTORY_FORM_FIELD_ADMIN_ONLY_EDITABLE_LABEL"
+               description="COM_LOVEFACTORY_FORM_FIELD_ADMIN_ONLY_EDITABLE_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field name="lock_after_save" type="list" default="0"
+               label="COM_LOVEFACTORY_FORM_FIELD_LOCK_LABEL" description="COM_LOVEFACTORY_FORM_FIELD_LOCK_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+    </fieldset>
+
+    <field name="labels" type="FieldLabels"/>
+    <field name="descriptions" type="FieldDescriptions"/>
+    <field name="css" type="FieldCSS"/>
+</form>

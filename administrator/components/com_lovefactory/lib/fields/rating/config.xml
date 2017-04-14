@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+    <fields name="params">
+        <fieldset name="params">
+            <field name="view_mode" type="list" default="1">
+                <option value="0">COM_LOVEFACTORY_FORM_FIELD_RATING_VIEW_MODE_OPTION_SHORT</option>
+                <option value="1">COM_LOVEFACTORY_FORM_FIELD_RATING_VIEW_MODE_OPTION_FULL</option>
+            </field>
+
+        </fieldset>
+    </fields>
+</form>

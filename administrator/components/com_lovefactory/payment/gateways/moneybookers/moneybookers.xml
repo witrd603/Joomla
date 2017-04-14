@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="params">
+            <!-- Email -->
+            <field name="email" type="text" class="inputbox" size="60" default="" required="true"
+                   label="FACTORY_PAYMENT_PLUGIN_MONEYBOOKERS_EMAIL_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_MONEYBOOKERS_EMAIL_DESC"/>
+
+            <!-- Action -->
+            <field name="action" type="text" class="inputbox" size="80"
+                   default="https://www.moneybookers.com/app/payment.pl" required="true"
+                   label="FACTORY_PAYMENT_PLUGIN_MONEYBOOKERS_ACTION_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_MONEYBOOKERS_ACTION_DESC"/>
+
+            <!-- Button src -->
+            <field name="button_src" type="text" class="inputbox" size="80"
+                   default="http://www.moneybookers.com/images/logos/checkout_logos/checkout_120x40px.gif"
+                   label="FACTORY_PAYMENT_PLUGIN_MONEYBOOKERS_BUTTON_SRC_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_MONEYBOOKERS_BUTTON_SRC_DESC"/>
+        </fieldset>
+    </fields>
+</form>

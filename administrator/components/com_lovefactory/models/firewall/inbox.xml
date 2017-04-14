@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="inbox" label="Inbox">
+    <asset type="view">inbox</asset>
+
+    <fixed>
+        <rule>MessagesEnabled</rule>
+        <rule>Logged</rule>
+    </fixed>
+</section>

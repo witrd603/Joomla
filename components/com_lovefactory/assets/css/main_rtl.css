@@ -1,0 +1,39 @@
+.lovefactory-view .lovefactory-page .control-group .controls {
+    margin-right: 100px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+@media (max-width: 480px) {
+    .lovefactory-view .lovefactory-page .control-group .controls {
+        margin-right: 0;
+    }
+
+    .lovefactory-view .lovefactory-page .control-group label {
+        float: none;
+        text-align: right;
+    }
+}
+
+@media (max-width: 480px) {
+    .lovefactory-view .lovefactory-page .control-group .span12 .controls {
+        margin-right: 0;
+    }
+}
+
+.lovefactory-view .lovefactory-page .control-group .control-label {
+    text-align: right;
+}
+
+.lovefactory-view #lovefactory-toolbar ul li {
+    float: right;
+}
+
+.lovefactory-view #lovefactory-toolbar ul li.first {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.lovefactory-view.view-module-search .control-group label.control-label {
+    text-align: right;
+}

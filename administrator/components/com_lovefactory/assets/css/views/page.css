@@ -1,0 +1,140 @@
+#page-setup .zones {
+    width: 100%;
+}
+
+#page-setup .button {
+    background-color: #eeeeee;
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+
+#page-setup .main-buttons {
+    margin-bottom: 10px;
+}
+
+/* Zone */
+#page-setup .zone {
+    margin: 2px 0 20px 0;
+    background-color: #eeeeee;
+    overflow: hidden;
+    border: 1px solid #999999;
+}
+
+#page-setup .zone-state-highlight {
+    background-color: #ffffdd;
+    margin-bottom: 20px;
+    border: 2px dashed #000000;
+    border-radius: 5px;
+}
+
+#page-setup .zone-header {
+    clear: both;
+    background-color: #cccccc;
+    padding: 10px;
+    border-bottom: 1px solid #999999;
+}
+
+#page-setup .zone-body {
+    padding: 15px;
+    overflow: hidden;
+}
+
+#page-setup .zone-handler {
+    cursor: pointer;
+    float: right;
+}
+
+/* Column */
+#page-setup .columns {
+    overflow: hidden;
+}
+
+#page-setup .column {
+    float: left;
+    min-width: 192px;
+    min-height: 30px;
+    padding: 0;
+    background-color: #dddddd;
+    margin-right: 15px;
+    border: 1px solid #999999;
+}
+
+#page-setup .column-state-available {
+    background-color: #fafad2;
+    float: left;
+    padding: 0px;
+    margin-right: 15px;
+}
+
+#page-setup .column-state-highlight {
+    background-color: #ffffdd;
+    float: left;
+    padding: 0px;
+    margin-right: 15px;
+    border: 2px dashed #000000;
+    border-radius: 5px;
+}
+
+#page-setup .column-header {
+    clear: both;
+    background-color: #cccccc;
+    padding: 10px;
+    border-bottom: 1px solid #999999;
+}
+
+#page-setup .column-body {
+    padding: 15px;
+    overflow: hidden;
+}
+
+#page-setup .column-handler {
+    cursor: pointer;
+    float: right;
+}
+
+/* Field */
+#page-setup .field {
+    min-width: 150px;
+    min-height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    margin-bottom: 15px;
+    padding: 5px;
+    box-shadow: 0 0 17px -11px #000000;
+    border-radius: 5px;
+}
+
+#page-setup .field:last-child {
+    margin-bottom: 0;
+}
+
+#page-setup .field-state-highlight {
+    min-width: 150px;
+    background-color: #ffffdd;
+    padding: 4px;
+    margin-bottom: 15px;
+    border: 2px dashed #000000;
+    border-radius: 5px;
+}
+
+#page-setup ul.fields {
+    min-height: 30px;
+}
+
+#page-setup .field-handler,
+#page-setup .button-field-remove {
+    float: right;
+    cursor: pointer;
+}
+
+ul.fields, ul.columns, ul.titles, ul.zones {
+    margin: 0;
+}
+
+.zone legend {
+    font-size: 18px;
+}
+
+a.button {
+    font-size: smaller;
+}

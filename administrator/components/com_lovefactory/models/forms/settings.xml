@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+    <fieldset name="infobar">
+        <fields name="infobar">
+
+            <field name="enabled" type="radio" class="btn-group btn-group-yesno" default="1" filter="integer">
+                <option value="1">JENABLED</option>
+                <option value="0">JDISABLED</option>
+            </field>
+
+            <field name="refresh_interval" type="number" filter="integer" default="30" showon="enabled:1"/>
+
+            <field name="location" type="list" filter="integer" default="1" showon="enabled:1">
+                <option value="1">Allow users to select location</option>
+                <option value="2">Top</option>
+                <option value="3">Bottom</option>
+            </field>
+
+            <field name="buttons_labels" type="radio" class="btn-group btn-group-yesno" default="0" filter="integer"
+                   showon="enabled:1">
+                <option value="1">JENABLED</option>
+                <option value="0">JDISABLED</option>
+            </field>
+
+            <field name="button_close_enabled" type="radio" class="btn-group btn-group-yesno" default="1"
+                   filter="integer" showon="enabled:1">
+                <option value="1">JENABLED</option>
+                <option value="0">JDISABLED</option>
+            </field>
+
+            <field name="button_logout_enabled" type="radio" class="btn-group btn-group-yesno" default="1"
+                   filter="integer" showon="enabled:1">
+                <option value="1">JENABLED</option>
+                <option value="0">JDISABLED</option>
+            </field>
+
+        </fields>
+    </fieldset>
+</form>

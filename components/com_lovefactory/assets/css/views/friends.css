@@ -1,0 +1,36 @@
+.view-myfriends .lovefactory-page,
+.view-friends .lovefactory-page,
+.view-requests .lovefactory-page,
+.view-topfriends .lovefactory-page {
+    margin-bottom: 20px;
+}
+
+.view-myfriends input.search-box,
+.view-topfriends input.search-box {
+    margin: 0 10px 0 0;
+    background: transparent url('../images/icons/magnifier.png') no-repeat 5px center;
+    padding-left: 25px;
+}
+
+.view-myfriends input.search-loading,
+.view-topfriends input.search-loading {
+    background-image: url('../images/icons/loader.gif');
+}
+
+.view-myfriends label,
+.view-topfriends label {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    vertical-align: middle;
+}
+
+.view-myfriends input[type="checkbox"],
+.view-topfriends input[type="checkbox"] {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.view-myfriends div#myfriends-results,
+.view-topfriends div#myfriends-results {
+    margin-top: 15px;
+}

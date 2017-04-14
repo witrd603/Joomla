@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="fillin" label="Profile fill-in">
+    <asset type="view">fillin</asset>
+
+    <fixed>
+        <rule>Logged</rule>
+        <rule>NotFilled</rule>
+    </fixed>
+</section>

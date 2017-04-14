@@ -1,0 +1,111 @@
+.lovefactory-object .ui-widget {
+    font-family: inherit;
+    font-size: 12px;
+}
+
+.lovefactory-object .ui-dialog {
+    padding: 0;
+    box-shadow: 0 0 32px -9px #999999;
+    border: 0;
+}
+
+.lovefactory-object .ui-dialog .ui-dialog-content {
+    text-align: left;
+    padding: 0;
+}
+
+.lovefactory-object .ui-widget-header {
+    border: 0;
+    border-radius: 0;
+}
+
+.lovefactory-object .ui-dialog-content .lovefactory-dialog-content {
+    margin: 20px;
+}
+
+.lovefactory-object .ui-widget table input, .lovefactory-object .ui-widget table select, .lovefactory-object .ui-widget table textarea, .lovefactory-object .ui-widget table button {
+    font-family: inherit;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.lovefactory-object .ui-dialog-content .lovefactory-dialog-content textarea {
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    resize: none;
+}
+
+.lovefactory-object .ui-dialog-content .lovefactory-dialog-content th {
+    width: 100px;
+    vertical-align: top;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.lovefactory-object .ui-dialog-content .lovefactory-dialog-content th,
+.lovefactory-object .ui-dialog-content .lovefactory-dialog-content td {
+    padding-bottom: 5px;
+}
+
+.lovefactory-object .ui-dialog-content .lovefactory-dialog-content table {
+    width: 100%;
+}
+
+.lovefactory-object .ui-dialog .ui-dialog-titlebar {
+    padding: 8px 10px;
+}
+
+.lovefactory-object .ui-dialog-content .lovefactory-dialog-buttons {
+    border-top: 1px solid #eeeeee;
+    padding: 15px 10px;
+    text-align: right;
+    background-color: #f6f6f6;
+    margin-top: 20px;
+}
+
+.lovefactory-object .ui-dialog-content .lovefactory-dialog-buttons .dialog-button,
+.lovefactory-object .ui-dialog-content .lovefactory-dialog-buttons .dialog-button:hover {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: inherit;
+    font-weight: normal;
+}
+
+.lovefactory-object .ui-dialog-content .lovefactory-dialog-buttons .dialog-button:hover {
+    text-decoration: underline;
+}
+
+.lovefactory-object .ui-dialog .dialog-tip .factory-icon {
+    float: left;
+}
+
+.lovefactory-object .ui-dialog .dialog-tip div {
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+.lovefactory-object .ui-dialog .dialog-tip {
+    background-color: #eeeeee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.lovefactory-object .ui-dialog .ui-progressbar .ui-progressbar-value {
+    margin: 0;
+}
+
+.lovefactory-ui-autocomplete a {
+    font-size: 12px;
+}
+
+.lovefactory-ui-autocomplete li {
+    padding: 5px;
+}
+
+.lovefactory-dialog-content input#video_title {
+    box-sizing: content-box;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="system" method="upgrade">
+  <name>Love Factory Activity Plugin</name>
+  <description>Love Factory Activity Plugin</description>
+  <files>
+    <filename plugin="lovefactoryactivity">lovefactoryactivity.php</filename>
+    <filename>activity.php</filename>
+    <filename>helper.php</filename>
+    <folder>activities</folder>
+  </files>
+  <version>4.4.7</version>
+  <author>thePHPfactory</author>
+  <copyright>SKEPSIS Consult SRL</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>contact@thephpfactory.com</authorEmail>
+  <authorUrl>http://www.thephpfactory.com</authorUrl>
+  <url>http://www.thephpfactory.com</url>
+  <creationDate>May 2009</creationDate>
+</extension>

@@ -1,0 +1,23 @@
+.view-configuration table {
+    width: 100%;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+.view-configuration table tr.even td,
+.view-configuration table tr.even th {
+    background-color: #eeeeee;
+}
+
+.view-configuration table th,
+.view-configuration table td {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.view-configuration table th {
+    font-weight: normal;
+    width: 150px;
+    padding-right: 30px;
+}

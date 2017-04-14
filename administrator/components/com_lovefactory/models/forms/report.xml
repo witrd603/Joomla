@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+    <fieldset name="details">
+        <field name="id" type="text" default="0" readonly="true" class="readonly"
+               label="JGLOBAL_FIELD_ID_LABEL" description="JGLOBAL_FIELD_ID_DESC"/>
+        <field name="element" type="hidden" default="" readonly="true" class="readonly" disabled="true"/>
+        <field name="reported_id" type="hidden" default="" readonly="true" class="readonly" disabled="true"/>
+        <field name="reporting_id" type="user" readonly="true" class="readonly" disabled="true"/>
+        <field name="date" type="text" readonly="true" class="readonly" disabled="true"/>
+        <field name="comment" type="textarea" disabled="true" rows="5"/>
+    </fieldset>
+
+    <fieldset name="report">
+        <field name="type" type="LoveFactoryReportType" default="" readonly="true" class="readonly" disabled="true"/>
+        <field name="user_id" type="user" readonly="true" class="readonly" disabled="true"/>
+        <field name="item" type="LoveFactoryReportItem" disabled="true"/>
+    </fieldset>
+
+    <fieldset name="actions">
+        <field name="status" type="list">
+            <option value="0">COM_LOVEFACTORY_REPORT_STATUS_OPTION_PENDING</option>
+            <option value="1">COM_LOVEFACTORY_REPORT_STATUS_OPTION_RESOLVED</option>
+        </field>
+
+        <fields name="actions">
+            <field name="delete_item" type="list">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+
+            <field name="ban_user" type="list">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+
+            <field name="send_message" type="textarea" rows="5"/>
+        </fields>
+    </fieldset>
+</form>

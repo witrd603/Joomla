@@ -1,0 +1,60 @@
+.view-group .span8 {
+    margin-bottom: 10px;
+}
+
+.view-groups .filters input,
+.view-groups .filters select {
+    max-width: 100px;
+}
+
+.view-groupthreadedit input,
+.view-groupthreadedit textarea {
+    width: 90%;
+}
+
+.view-groupthread .comment {
+    border-bottom: 1px solid #eeeeee;
+    min-height: 50px;
+    padding: 20px;
+}
+
+.view-groupthread .comments li.alternate {
+    background-color: #f6f6f6;
+}
+
+.view-groupthread .comments img {
+    max-width: 50px;
+    float: left;
+}
+
+.view-groupthread .comment .message {
+    margin-left: 70px;
+}
+
+.view-groupthread .comment .info {
+    color: #999999;
+    margin-top: 10px;
+}
+
+.view-groupthread .info .right {
+    float: right;
+}
+
+.view-groupthread #main .comment .info a,
+.view-groupthread .comment .info a {
+    color: #999999;
+}
+
+.view-groupthread textarea {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.view-groupthread .buttons {
+    margin-top: 10px;
+}
+
+.view-groupthread .details-thread {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="approvals" label="Approvals">
+    <asset type="view">approvals</asset>
+
+    <fixed>
+        <rule>Logged</rule>
+    </fixed>
+</section>

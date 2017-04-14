@@ -1,0 +1,140 @@
+.lovefactory-view {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1.heading {
+    margin: 0 0 10px 0;
+    padding: 0;
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  form {
+    margin: 0;
+    padding: 0;
+  }
+
+  .filters {
+    color: #999999;
+    text-align: right;
+    margin-bottom: 10px;
+
+    label {
+      display: inline-block;
+    }
+
+    select,
+    input {
+      width: auto;
+      margin: 0;
+    }
+  }
+
+  .text-success {
+    color: #3c763d;
+  }
+
+  .text-danger {
+    color: #a94442;
+  }
+
+  table {
+    thead {
+      th {
+        background-color: #eeeeee;
+        border-bottom: 1px solid #cccccc;
+      }
+    }
+
+    input[type="checkbox"] {
+      margin: 0;
+    }
+
+    td.right {
+      text-align: right;
+    }
+  }
+
+  .batch-label {
+    color: #999999;
+  }
+
+  div.pagination {
+    &:empty {
+      display: none;
+    }
+
+    span.pagenav {
+      color: #999999;
+    }
+  }
+
+  .well {
+    margin-bottom: 15px;
+
+    h3 {
+      margin: 0 0 5px 0;
+      padding: 0 0 5px 0;
+      border-bottom: 1px solid #eeeeee;
+    }
+  }
+
+  div.actions {
+    a {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+
+  .lovefactory-thumbnail {
+    background: no-repeat center center;
+    max-width: 100%;
+  }
+
+  a, a:hover, a:active, a:focus {
+    outline: none;
+  }
+
+  &.view-module-search.view-search {
+    .control-group {
+      label.control-label {
+        float: none;
+        display: block;
+        max-width: 100%;
+        width: 100%;
+      }
+
+      .controls {
+        margin: 0;
+      }
+    }
+  }
+
+  @import "views/page.less";
+  @import "views/toolbar.less";
+  @import "views/results.less";
+  @import "views/radiussearch.less";
+  @import "views/activity.less";
+  @import "views/search.less";
+  @import "views/itemcomments.less";
+  @import "views/edit.less";
+  @import "views/groups.less";
+  @import "views/messages.less";
+  @import "views/friends.less";
+  @import "views/media.less";
+  @import "views/profile.less";
+  @import "views/memberships.less";
+  @import "views/membersmap.less";
+}
+
+/* Beez3 fix */
+div#all {
+  .lovefactory-view .lovefactory-page .control-group .control-label {
+    max-width: 90px;
+  }
+}

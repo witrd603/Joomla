@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="comments" label="Comments">
+    <asset type="view">comments</asset>
+
+    <fixed>
+        <rule>CommentsEnabled</rule>
+        <rule>CommentsPrivacy</rule>
+    </fixed>
+</section>

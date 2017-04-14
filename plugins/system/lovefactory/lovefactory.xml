@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="system" method="upgrade">
+  <name>Love Factory Plugin</name>
+  <description>Love Factory Plugin</description>
+  <files>
+    <filename plugin="lovefactory">lovefactory.php</filename>
+  </files>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="itemid" type="menuitem" default="0" label="Registration link ItemId" description="Select the ItemId you want to use when creating the registration link.">
+          <option value=""/>
+        </field>
+      </fieldset>
+    </fields>
+  </config>
+  <version>4.4.7</version>
+  <author>thePHPfactory</author>
+  <copyright>SKEPSIS Consult SRL</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>contact@thephpfactory.com</authorEmail>
+  <authorUrl>http://www.thephpfactory.com</authorUrl>
+  <url>http://www.thephpfactory.com</url>
+  <creationDate>May 2009</creationDate>
+</extension>

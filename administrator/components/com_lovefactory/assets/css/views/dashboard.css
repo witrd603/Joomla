@@ -1,0 +1,139 @@
+.view-dashboard .box {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    width: 98%;
+    margin-bottom: 18px;
+}
+
+.view-dashboard .header2 {
+    background-color: #F6F6F6;
+    background-image: -moz-linear-gradient(center top, #FAFAFA, #F2F2F2);
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #FFFFFF;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 37px;
+    line-height: 37px;
+    padding: 0 11px;
+    font-size: 12px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    cursor: move;
+}
+
+.view-dashboard thead {
+}
+
+.view-dashboard .content {
+    min-height: 18px;
+    padding: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.view-dashboard .stat-block {
+    float: left;
+    width: 100px;
+    padding: 0 10px 0 5px;
+}
+
+.view-dashboard .count {
+    text-align: center;
+}
+
+.view-dashboard .count a {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: #508600;
+}
+
+.view-dashboard .count a:hover {
+    text-decoration: none;
+}
+
+.view-dashboard .unread a {
+    color: #DD0000;
+}
+
+.view-dashboard .text {
+    color: #999999;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.view-dashboard .content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.view-dashboard .content table a {
+    font-size: 12px;
+}
+
+.view-dashboard .content th, .content td {
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.view-dashboard .content th {
+    padding: 5px 10px;
+    background-color: #dedede;
+    color: #555555;
+}
+
+.view-dashboard .content td {
+    border-top: 1px solid #dddddd;
+}
+
+.view-dashboard .content tr.even {
+    background-color: #f9f9f9;
+}
+
+.view-dashboard .header span {
+    text-shadow: none;
+    text-transform: none;
+    font-weight: normal;
+    color: #999999;
+    font-size: smaller;
+    margin-left: 3px;
+}
+
+.view-dashboard .content p {
+    font-size: 12px;
+    margin: 5px 0 3px 0;
+}
+
+.view-dashboard .ui-state-highlight {
+    background-color: #f9f9f9;
+    border: 2px dashed #999999;
+    margin-bottom: 18px;
+    border-radius: 4px;
+}
+
+.width-50 {
+    min-height: 200px;
+}
+
+.view-dashboard .minimize {
+    float: right;
+    height: 100%;
+    width: 20px;
+    cursor: pointer;
+}
+
+.view-dashboard .box:hover .minimize {
+    display: block !important;
+}
+
+.view-dashboard .factory-badge {
+    padding: 2px 3px;
+    color: #ffffff;
+    border-radius: 5px;
+}

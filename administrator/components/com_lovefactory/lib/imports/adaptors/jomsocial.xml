@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<adaptor name="jomsocial" extension="com_community">
+    <actions>
+        <action label="Importing fields">fields.import</action>
+
+        <action label="Emptying profiles queue table">profiles.truncate</action>
+        <action label="Counting profiles">profiles.count</action>
+        <action label="Queuing profiles" limit="50000">profiles.queue</action>
+        <action label="Importing profiles" limit="1000" deltaTime="5" deltaMemory="5">profiles.import</action>
+
+        <action label="Counting block list entries">blocklist.count</action>
+        <action label="Importing block list entries" limit="50000">blocklist.import</action>
+
+        <action label="Counting messages">messages.count</action>
+        <action label="Importing messages" limit="10000">messages.import</action>
+
+        <action label="Emptying photos queue table">photos.truncate</action>
+        <action label="Counting photos">photos.count</action>
+        <action label="Queuing photos" limit="50000">photos.queue</action>
+        <action label="Importing photos" limit="1000">photos.import</action>
+        <action label="Importing photo comments" limit="1000">photos.comments</action>
+
+        <action label="Emptying videos queue table">videos.truncate</action>
+        <action label="Counting videos">videos.count</action>
+        <action label="Queuing videos" limit="50000">videos.queue</action>
+        <action label="Importing videos" limit="1000">videos.import</action>
+        <action label="Importing video comments" limit="1000">videos.comments</action>
+
+        <action label="Emptying groups queue table">groups.truncate</action>
+        <action label="Counting groups">groups.count</action>
+        <action label="Queuing groups" limit="50000">groups.queue</action>
+        <action label="Importing groups" limit="1000">groups.import</action>
+        <action label="Importing members" limit="1000">groups.members</action>
+
+        <action label="Emptying group discussions table">discussions.truncate</action>
+        <action label="Counting group discussions">discussions.count</action>
+        <action label="Queuing group discussions" limit="50000">discussions.queue</action>
+        <action label="Importing discussions" limit="1000">discussions.import</action>
+
+        <action label="Counting discussion replies">replies.count</action>
+        <action label="Importing replies" limit="1000">replies.import</action>
+
+        <action label="Counting friends">friends.count</action>
+        <action label="Importing friends" limit="10000">friends.import</action>
+    </actions>
+</adaptor>

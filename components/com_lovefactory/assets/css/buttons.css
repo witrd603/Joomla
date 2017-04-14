@@ -1,0 +1,363 @@
+.lovefactory-add {
+    background-image: url('../images/buttons/add.png');
+}
+
+.lovefactory-delete {
+    background-image: url('../images/buttons/delete.png');
+}
+
+.lovefactory-email-add {
+    background-image: url('../images/buttons/email_add.png');
+}
+
+.lovefactory-kiss {
+    background-image: url('../images/buttons/interaction_1.png');
+}
+
+.lovefactory-wink {
+    background-image: url('../images/buttons/interaction_3.png');
+}
+
+.lovefactory-pending {
+    background-image: url('../images/buttons/hourglass.png');
+}
+
+.lovefactory-heart {
+    background-image: url('../images/buttons/heart.png');
+}
+
+.lovefactory-heart-go {
+    background-image: url('../images/buttons/heart_go.png');
+}
+
+.lovefactory-heart-delete {
+    background-image: url('../images/buttons/heart_delete.png');
+}
+
+.lovefactory-heart-add {
+    background-image: url('../images/buttons/heart_add.png');
+}
+
+.lovefactory-accept {
+    background-image: url('../images/buttons/accept.png');
+}
+
+.lovefactory-cancel {
+    background-image: url('../images/buttons/cancel.png');
+}
+
+.lovefactory-break {
+    background-image: url('../images/buttons/heart_delete.png');
+}
+
+.lovefactory-add-comment {
+    background-image: url('../images/buttons/comment_add.png');
+}
+
+.lovefactory-comments-go {
+    background-image: url('../images/buttons/comments_go.png');
+}
+
+.lovefactory-comment {
+    background-image: url('../images/buttons/comment.png');
+    background-position: left top;
+}
+
+.lovefactory-exclamation {
+    background-image: url('../images/buttons/exclamation.png');
+}
+
+.lovefactory-email {
+    background-image: url('../images/buttons/email.png');
+}
+
+.lovefactory-email-open {
+    background-image: url('../images/buttons/email_open.png');
+}
+
+.lovefactory-email-go {
+    background-image: url('../images/buttons/email_go.png');
+}
+
+.lovefactory-user-go {
+    background-image: url('../images/buttons/user_go.png');
+}
+
+.lovefactory-cross {
+    background-image: url('../images/buttons/cross.png');
+}
+
+.lovefactory-photo-add {
+    background-image: url('../images/buttons/photo_add.png');
+}
+
+.lovefactory-disk {
+    background-image: url('../images/buttons/disk.png');
+}
+
+.lovefactory-refresh {
+    background-image: url('../images/buttons/arrow_refresh.png');
+}
+
+.lovefactory-picture-error {
+    background-image: url('../images/buttons/picture_error.png');
+}
+
+.lovefactory-photos {
+    background-image: url('../images/buttons/photos.png');
+}
+
+.lovefactory-photos-go {
+    background-image: url('../images/buttons/photos_go.png');
+}
+
+.lovefactory-loader-button {
+    background-image: url('../images/ajax-loader2.gif') !important;
+    padding-left: 20px !important;
+}
+
+.lovefactory-go-reverse {
+    background-image: url('../images/buttons/bullet_go_reverse.png');
+    padding-bottom: 4px;
+}
+
+.lovefactory-go {
+    background-image: url('../images/buttons/bullet_go.png');
+    padding-left: 18px;
+}
+
+.lovefactory-cog {
+    background-image: url('../images/buttons/cog.png');
+}
+
+.lovefactory-film {
+    background-image: url('../images/buttons/film.png');
+}
+
+.lovefactory-film-delete {
+    background-image: url('../images/buttons/film_delete.png');
+}
+
+.lovefactory-film-add {
+    background-image: url('../images/buttons/film_add.png');
+}
+
+.lovefactory-film-go {
+    background-image: url('../images/buttons/film_go.png');
+}
+
+.lovefactory-images {
+    background-image: url('../images/buttons/images.png');
+}
+
+.lovefactory-image-star {
+    background-image: url('../images/buttons/image_star.png');
+}
+
+.lovefactory-undo {
+    background-image: url('../images/buttons/arrow_undo.png');
+}
+
+.lovefactory-bullet-up {
+    background-image: url('../images/buttons/bullet_arrow_up.png');
+    padding-left: 18px;
+}
+
+.lovefactory-bullet-down {
+    background-image: url('../images/buttons/bullet_arrow_down.png');
+    padding-left: 18px;
+}
+
+.lovefactory-toggle-minus {
+    background-image: url('../images/buttons/bullet_toggle_minus.png');
+    padding-left: 18px;
+}
+
+.lovefactory-toggle-plus {
+    background-image: url('../images/buttons/bullet_toggle_plus.png');
+    padding-left: 18px;
+}
+
+.lovefactory-bullet-black {
+    background-image: url('../images/buttons/bullet_black.png');
+    padding-left: 18px;
+}
+
+.lovefactory-bullet-green {
+    background-image: url('../images/buttons/bullet_green.png');
+    padding-left: 15px;
+}
+
+.lovefactory-bullet-star {
+    background-image: url('../images/buttons/bullet_star.png');
+    padding-left: 18px;
+}
+
+.lovefactory-bullet-star-2 {
+    background-image: url('../images/buttons/bullet_star.png');
+    padding-left: 5px;
+    font-weight: bold;
+    padding-right: 15px;
+    background-position: right center;
+}
+
+.lovefactory-bullet-delete {
+    background-image: url('../images/buttons/bullet_delete.png');
+    padding-left: 15px;
+}
+
+.lovefactory-bullet-add {
+    background-image: url('../images/buttons/bullet_add.png');
+    padding-left: 15px;
+}
+
+.lovefactory-bullet-blue {
+    background-image: url('../images/buttons/bullet_blue.png');
+    padding-left: 15px;
+}
+
+.lovefactory-bullet-error {
+    background-image: url('../images/buttons/bullet_error.png');
+    padding-left: 18px;
+}
+
+.lovefactory-bullet-red {
+    background-image: url('../images/buttons/bullet_red.png');
+    padding-left: 15px;
+}
+
+.lovefactory-bullet-plus {
+    background-image: url('../images/buttons/bullet_plus.png');
+    padding-left: 18px;
+}
+
+.lovefactory-bullet-minus {
+    background-image: url('../images/buttons/bullet_minus.png');
+    padding-left: 18px;
+}
+
+.lovefactory-pencil {
+    background-image: url('../images/buttons/pencil.png');
+}
+
+.lovefactory-view-list {
+    background-image: url('../images/buttons/application_view_list.png');
+}
+
+.lovefactory-view-tile {
+    background-image: url('../images/buttons/application_view_tile.png');
+}
+
+.lovefactory-map-go {
+    background-image: url('../images/buttons/map_go.png');
+}
+
+.lovefactory-map-delete {
+    background-image: url('../images/buttons/map_delete.png');
+}
+
+.lovefactory-map-magnify {
+    background-image: url('../images/buttons/map_magnify.png');
+}
+
+.lovefactory-picture-go {
+    background-image: url('../images/buttons/picture_go.png');
+}
+
+.lovefactory-stars {
+    background-image: url('../images/buttons/star.png');
+}
+
+.lovefactory-star-add {
+    background-image: url('../images/buttons/star_add.png');
+}
+
+.lovefactory-star-delete {
+    background-image: url('../images/buttons/star_delete.png');
+}
+
+.lovefactory-picture-delete {
+    background-image: url('../images/buttons/picture_delete.png');
+}
+
+.lovefactory-picture-add {
+    background-image: url('../images/buttons/picture_add.png');
+}
+
+.lovefactory-bullet-load {
+    background-image: url('../images/ajax-loader2.gif');
+}
+
+.lovefactory-user-add {
+    background-image: url('../images/buttons/user_add.png');
+}
+
+.lovefactory-user-delete {
+    background-image: url('../images/buttons/user_delete.png');
+}
+
+.lovefactory-user-star {
+    background-image: url('../images/buttons/user_star.png');
+}
+
+.lovefactory-user-edit {
+    background-image: url('../images/buttons/user_edit.png');
+}
+
+.lovefactory-user-cross {
+    background-image: url('../images/buttons/user_cross.png');
+}
+
+.lovefactory-user {
+    background-image: url('../images/buttons/user.png');
+}
+
+.lovefactory-time {
+    background-image: url('../images/buttons/time.png');
+}
+
+.lovefactory-date {
+    background-image: url('../images/buttons/date.png');
+}
+
+.lovefactory-result-next {
+    background-image: url('../images/buttons/resultset_next.png');
+}
+
+.lovefactory-result-prev {
+    background-image: url('../images/buttons/resultset_previous.png');
+}
+
+.lovefactory-page-white-edit {
+    background-image: url('../images/buttons/page_white_edit.png');
+}
+
+.lovefactory-tick {
+    background-image: url('../images/buttons/tick.png');
+}
+
+.lovefactory-asc {
+    background-image: url('../images/buttons/section_expanded.png');
+    padding-left: 16px;
+}
+
+.lovefactory-desc {
+    background-image: url('../images/buttons/section_collapsed.png');
+    padding-left: 16px;
+}
+
+.lovefactory-emoticon-smile-go {
+    background-image: url('../images/buttons/emoticon_smile_go.png');
+}
+
+.lovefactory-application-form-minus {
+    background-image: url('../images/buttons/application_form_minus.png');
+}
+
+.lovefactory-application-form-plus {
+    background-image: url('../images/buttons/application_form_plus.png');
+}
+
+.lovefactory-application-form-delete {
+    background-image: url('../images/buttons/application_form_delete.png');
+}

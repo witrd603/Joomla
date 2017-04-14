@@ -1,0 +1,248 @@
+.lovefactory-module {
+    overflow: hidden;
+}
+
+.lovefactory-module .no-results {
+    text-align: left;
+}
+
+/* Configuration */
+.lovefactory-module-configuration {
+    text-align: left;
+    background-color: #f6f6f6;
+    border: 1px solid #dddddd;
+    border-top: 2px solid #999999;
+    position: relative;
+}
+
+.lovefactory-module-configuration ul {
+    margin: 0;
+    padding: 0;
+}
+
+.lovefactory-module-configuration label {
+    display: inline;
+    margin: 0;
+}
+
+.lovefactory-module-configuration input {
+    margin: 0;
+}
+
+.lovefactory-module-configuration-link {
+    font-size: x-small;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.lovefactpry-module-conf
+.lovefactory-module-configuration-link a,
+.lovefactory-module-configuration-link a:hover {
+    background-color: transparent !important;
+    color: #999999 !important;
+    text-decoration: none !important;
+}
+
+.lovefactory-module-configuration-link a:hover {
+    text-decoration: underline !important;
+}
+
+.lovefactory-module-configuration-wrapper {
+    padding: 10px;
+}
+
+.lovefactory-module-configuration-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/ajax-loader2.gif') center center no-repeat;
+    background-color: #000000;
+    opacity: .75;
+}
+
+.lovefactory-module-configuration-buttons {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px dotted #dddddd;
+    padding-top: 10px;
+}
+
+.lovefactory-module-configuration li {
+    margin-bottom: 3px;
+}
+
+.lovefactory-module-configuration li label {
+    margin-left: 3px;
+}
+
+.module-config-loading {
+    background: url('../images/ajax-loader2.gif') center left no-repeat !important;
+    padding-left: 20px;
+}
+
+.module-config-loading:active, .module-config-loading:hover {
+    background-color: transparent !important;
+    text-decoration: underline !important;
+}
+
+.lovefactory-module ul,
+.lovefactory-module li {
+    list-style-type: none;
+}
+
+/* Pagination */
+.lovefactory-module .module-pagination {
+    display: inline;
+    clear: both;
+    float: left;
+    overflow: hidden;
+    font-size: x-small;
+    margin-top: 10px;
+}
+
+.lovefactory-module .module-pagination ul {
+    padding: 0;
+    margin: 0;
+}
+
+.lovefactory-module .pagination-loading {
+    background: url('../images/ajax-loader2.gif') center center no-repeat;
+}
+
+.lovefactory-module .pagination-loading ul {
+    visibility: hidden;
+}
+
+.lovefactory-module .module-pagination ul {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+.lovefactory-module .module-pagination li {
+    float: left;
+    margin: 3px;
+}
+
+/* Module Members */
+.mod_lovefactory_members {
+}
+
+.mod_lovefactory_members .lovefactory-thumbnail {
+    margin: 0 auto;
+    float: none;
+}
+
+.mod_lovefactory_members .lovefactory-thumbnail a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.mod_lovefactory_members {
+    text-align: center;
+}
+
+.mod_lovefactory_members .lovefactory-profile-thumbnail {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    max-width: 100px;
+}
+
+.mod_lovefactory_members .items {
+    overflow: hidden;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .mod_lovefactory_members div:empty {
+        display: none;
+    }
+}
+
+/* Users statistics */
+.mod_lovefactory_users_statistics table {
+    margin-top: 10px;
+}
+
+.mod_lovefactory_users_statistics table,
+.mod_lovefactory_users_statistics tr,
+.mod_lovefactory_users_statistics td {
+    border: 0;
+}
+
+.mod_lovefactory_users_statistics td {
+    padding: 5px;
+}
+
+.mod_lovefactory_users_statistics td.second {
+    padding-left: 20px;
+}
+
+/* Shoutbox */
+.mod_lovefactory_shoutbox .lovefactory-shoutbox-messages {
+    height: 300px;
+    overflow-y: auto;
+}
+
+.mod_lovefactory_shoutbox .lovefactory-shoutbox-message {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.mod_lovefactory_shoutbox .alternate {
+    background-color: #f6f6f6;
+}
+
+.mod_lovefactory_shoutbox .message-user {
+    margin: 0;
+}
+
+.mod_lovefactory_shoutbox form {
+    margin: 0;
+    padding: 0;
+}
+
+.mod_lovefactory_shoutbox .lovefactory-shoutbox-post {
+    margin-top: 10px;
+}
+
+.mod_lovefactory_shoutbox .lovefactory-shoutbox-date {
+    color: #aaaaaa;
+}
+
+.mod_lovefactory_shoutbox .message-user {
+    width: 60%;
+}
+
+.mod_lovefactory_shoutbox .message-submit {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+/* Groups */
+.mod_lovefactory_groups table,
+.mod_lovefactory_groups tr,
+.mod_lovefactory_groups td {
+    border: 0;
+    vertical-align: top;
+}
+
+.mod_lovefactory_groups .counter {
+    width: 40px;
+}
+
+.mod_lovefactory_groups
+.mod_lovefactory_groups [class^="icon-"]:before,
+.mod_lovefactory_groups [class*=" icon-"]:before,
+.mod_lovefactory_users_statistics [class^="icon-"]:before,
+.mod_lovefactory_users_statistics [class*=" icon-"]:before,
+.mod_lovefactory_shoutbox [class^="icon-"]:before,
+.mod_lovefactory_shoutbox [class*=" icon-"]:before {
+    font-family: inherit;
+    font-style: normal;
+    content: '';
+}

@@ -1,0 +1,13 @@
+.view-edit .actions,
+.view-fillin .actions {
+    margin-top: 20px;
+}
+
+.view-edit button,
+.view-fillin button {
+    margin-bottom: 5px;
+}
+
+.view-edit .lovefactory-page .control-group {
+    margin-bottom: 9px;
+}

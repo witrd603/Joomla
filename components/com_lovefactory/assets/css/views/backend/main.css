@@ -1,0 +1,298 @@
+a {
+    outline: none;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Zones */
+.lovefactory-zone,
+.lovefactory-system {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.lovefactory-zone-columns {
+    float: left;
+    margin-right: 10px;
+}
+
+.lovefactory-zone-columns th {
+    vertical-align: top;
+}
+
+.lovefactory-required-field {
+    color: #cc0000;
+}
+
+.lovefactory-error-field {
+    color: #cc0000;
+}
+
+.lovefactory-zones-submit,
+.lovefactory-zones-terms {
+    margin: 10px;
+    clear: both;
+}
+
+.lovefactory-right-menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.lovefactory-right-menu fieldset {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/*.lovefactory-right-menu li { margin-bottom: 20px; }*/
+
+.lovefactory-list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lovefactory-list li {
+    margin-bottom: 5px;
+}
+
+/* Button */
+.lovefactory-button {
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-top: 1px;
+    text-transform: lowercase;
+}
+
+.lovefactory-button-2 {
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-top: 1px;
+    text-transform: none;
+}
+
+.lovefactory-button-3 {
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-top: 1px;
+    text-transform: none;
+}
+
+.lovefactory-loader {
+    background-image: url('../images/ajax-loader2.gif') !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+.lovefactory-loader-right {
+    background-image: url('../images/ajax-loader2.gif') !important;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+}
+
+/* UL menu */
+ul.lovefactory_menu {
+    list-style-type: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 32px;
+    border-bottom: 1px solid #dddddd;
+}
+
+ul.lovefactory_menu li {
+    float: left;
+    margin-right: 5px !important;
+    padding: 5px 10px !important;
+    background-color: #dddddd;
+    text-transform: capitalize;
+    list-style-type: none;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+}
+
+ul.lovefactory_menu li.selected {
+    background-color: #cc0000;
+}
+
+ul.lovefactory_menu li.selected a {
+    color: #ffffff;
+}
+
+/* Table */
+.lovefactory-table {
+    width: 100%;
+}
+
+.lovefactory-table tr.even td {
+    background-color: #f3f3f3;
+}
+
+.lovefactory-table td,
+.lovefactory-table th {
+    vertical-align: top;
+    padding: 5px;
+}
+
+/*.lovefactory-table th { background-color: #666666; color: #ffffff; }*/
+.lovefactory-table th {
+    background: #DDDDDD url('../images/tabs/ui-bg_highlight-soft_50_dddddd_1x100.png') repeat-x scroll 50% 50%;
+    padding: 7px 10px;
+    padding-left: 5px;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+}
+
+.lovefactory-table2 th,
+.lovefactory-table2 td {
+    padding: 5px 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.lovefactory-table2 th {
+    background-color: #eeeeee;
+}
+
+legend {
+    text-transform: capitalize;
+}
+
+.lovefactory-thumbnail {
+    background-repeat: no-repeat !important;
+    background-position: center center;
+    border: 1px dotted #999999;
+    background-color: #ffffff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.lovefactory-thumbnail a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/*fieldset { border: 1px dotted #cccccc !important; position: relative; }*/
+/*legend { position: absolute; top: -.5em; left: .2em; }*/
+
+.lovefactory-more-photos {
+    font-size: 11px;
+    color: #999999;
+    text-align: left !important;
+    text-transform: lowercase;
+}
+
+.lovefactory-more-photos a {
+    font-size: 11px !important;
+    color: #999999 !important;
+    text-align: left !important;
+    border-bottom: 1px dotted #999999;
+}
+
+.lovefactory-more-photos a:hover {
+    border-bottom: 1px solid #999999;
+    text-decoration: none;
+}
+
+.lovefactory-loading-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #000000;
+    opacity: 0.50;
+    background-image: url('../images/ajax-loader2.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.lovefactory-action-response {
+    background-color: #ffffdd;
+    padding: 10px;
+    text-transform: lowercase;
+}
+
+.lovefactory-action-error {
+    background-color: #cc0000;
+    color: #ffffff;
+}
+
+.lovefactory-action-response .lovefactory-message {
+    font-weight: bold;
+}
+
+#lovefactory-quick-error {
+    padding: 0px 5px 5px 5px;
+}
+
+.lovefactory-lowercase, .lovefactory-lowercase a {
+    text-transform: lowercase;
+}
+
+/* Info */
+.lovefactory-info {
+    color: #999999;
+    font-size: 10px;
+}
+
+.lovefactory-banned {
+    color: #ff0000 !important;
+    text-align: center !important;
+}
+
+.lovefactory-legend-no-transform {
+    text-transform: none !important;
+}
+
+/* Submit buttons */
+.lf-submit {
+    border: 1px solid #333333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px 20px 5px 30px;
+    cursor: pointer;
+    height: 30px;
+}
+
+input.lf-submit[type=submit]:hover {
+    -moz-box-shadow: 0px 0px 5px #666666;
+    -webkit-box-shadow: 0px 0px 5px #666666;
+}
+
+.lf-submit-grey-accept {
+    background: url('../images/submit/accept_grey.png') repeat-x left center;
+}
+
+/* Input text fields */
+.lf-input {
+    border: 1px solid #999999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px;
+}
+
+.lf-form-error {
+    border-color: #ff0000;
+}
+
+.lf-page-spacer {
+    clear: both;
+    margin-top: 20px;
+}
+
+.lovefactory-profile-thumbnail {
+    text-align: center;
+}
+
+.lovefactory-thumbnail {
+    margin: 0 auto;
+}

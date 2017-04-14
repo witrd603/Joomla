@@ -1,0 +1,51 @@
+.item-comments textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.item-comments .media {
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px;
+}
+
+.item-comments .media .media-object {
+    max-width: 64px;
+}
+
+.item-comments .media .media-body {
+    padding: 5px 10px 0 10px;
+    overflow: hidden;
+}
+
+.item-comments .media .media-body a.username {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.item-comments .media .media-body div.pending-warning {
+    display: inline-block;
+}
+
+.item-comments .media .message-info a {
+    display: inline-block;
+}
+
+.item-comments .media .message-info i.factory-icon {
+    display: none;
+}
+
+.item-comments .media .message-content {
+    margin-top: 9px;
+}
+
+.item-comments .media:nth-child(2n+1) {
+    background-color: #f6f6f6;
+}
+
+.item-comments .media .muted a {
+    color: inherit;
+}
+
+.item-comments .media.pending-approval {
+    background-color: #f2dede;
+}

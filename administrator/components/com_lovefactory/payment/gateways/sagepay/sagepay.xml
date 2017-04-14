@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="params">
+            <!-- Email -->
+            <field name="email" type="text"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_EMAIL_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_EMAIL_DESC"
+                   class="inputbox" size="60" default="" required="true"/>
+
+            <!-- Vendor name -->
+            <field name="vendor_name" type="text"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_VENDOR_LOGIN_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_VENDOR_LOGIN_DESC"
+                   class="inputbox" size="60" default="" required="true"/>
+
+            <!-- Encryption password -->
+            <field name="encryption_password" type="text"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_ENCRYPTION_PASSWORD_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_ENCRYPTION_PASSWORD_DESC"
+                   class="inputbox" size="60" default="" required="true"/>
+
+            <!-- Sage Pay Referrer ID -->
+            <field name="referrer_id" type="text"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_REFERER_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_REFERER_DESC"
+                   class="inputbox" size="60" default=""/>
+
+            <!-- Confirmation email address -->
+            <field name="confirmation_email" type="text"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_CONFIRMATION_EMAIL_ADDRESS_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_CONFIRMATION_EMAIL_ADDRESS_DESC"
+                   class="inputbox" size="60" default=""/>
+
+            <!-- Send confirmation email -->
+            <field name="send_email" type="list"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_SEND_CONFIRMATION_EMAIL_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_SEND_CONFIRMATION_EMAIL_DESC"
+                   class="inputbox" default="0">
+                <option value="0">FACTORY_PAYMENT_PLUGIN_SAGEPAY_SEND_CONFIRMATION_EMAIL_NO_EMAILS</option>
+                <option value="1">FACTORY_PAYMENT_PLUGIN_SAGEPAY_SEND_CONFIRMATION_EMAIL_BOTH</option>
+                <option value="2">FACTORY_PAYMENT_PLUGIN_SAGEPAY_SEND_CONFIRMATION_EMAIL_VENDOR</option>
+            </field>
+
+            <!-- Email message -->
+            <field name="email_message" type="textarea"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_EMAIL_MESSAGE_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_EMAIL_MESSAGE_DESC"
+                   class="inputbox" rows="10" cols="40" default=""/>
+
+            <!-- Enable Gift Aid -->
+            <field name="allow_gift_aid" type="list"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_ENABLE_GIFT_AID_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_ENABLE_GIFT_AID_DESC"
+                   class="inputbox" default="0">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+
+            <!-- AVS/CV2 checks -->
+            <field name="apply_avscv2" type="list"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_APPLY_AVSCV_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_APPLY_AVSCV_DESC"
+                   class="inputbox" default="0">
+                <option value="0">FACTORY_PAYMENT_PLUGIN_SAGEPAY_APPLY_AVSCV_CHECK</option>
+                <option value="1">FACTORY_PAYMENT_PLUGIN_SAGEPAY_APPLY_AVSCV_FORCE_CHECK</option>
+                <option value="2">FACTORY_PAYMENT_PLUGIN_SAGEPAY_APPLY_AVSCV_NO_CHECK</option>
+                <option value="3">FACTORY_PAYMENT_PLUGIN_SAGEPAY_APPLY_AVSCV_FORCE_DONT_APPLY</option>
+            </field>
+
+            <!-- 3D-Secure checks -->
+            <field name="apply_3dsecure" type="list"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_SECURE_CHECKS_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_SECURE_CHECKS_DESC"
+                   class="inputbox" default="0">
+                <option value="0">FACTORY_PAYMENT_PLUGIN_SAGEPAY_SECURE_CHECKS_PERFORM</option>
+                <option value="1">FACTORY_PAYMENT_PLUGIN_SAGEPAY_SECURE_CHECKS_FORCE</option>
+                <option value="2">FACTORY_PAYMENT_PLUGIN_SAGEPAY_SECURE_CHECKS_NO_PERFORM</option>
+                <option value="3">FACTORY_PAYMENT_PLUGIN_SAGEPAY_SECURE_CHECKS_FORCE_AUTH_CODE</option>
+            </field>
+
+            <!-- Mode -->
+            <field name="mode" type="list"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_MODE_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_MODE_DESC"
+                   class="inputbox" default="0">
+                <option value="0">FACTORY_PAYMENT_PLUGIN_SAGEPAY_MODE_LIVE</option>
+                <option value="1">FACTORY_PAYMENT_PLUGIN_SAGEPAY_MODE_TEST</option>
+                <option value="2">FACTORY_PAYMENT_PLUGIN_SAGEPAY_MODE_SIMULATOR</option>
+            </field>
+
+            <!-- Action live -->
+            <field name="action_live" type="text"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_ACTION_LIVE_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_ACTION_LIVE_DESC"
+                   class="inputbox" size="80" default="https://live.sagepay.com/gateway/service/vspform-register.vsp"
+                   required="true"/>
+
+            <!-- Action test -->
+            <field name="action_test" type="text"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_ACTION_TEST_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_ACTION_TEST_DESC"
+                   class="inputbox" size="80" default="https://test.sagepay.com/gateway/service/vspform-register.vsp"/>
+
+            <!-- Action simulator-->
+            <field name="action_simulator" type="text"
+                   label="FACTORY_PAYMENT_PLUGIN_SAGEPAY_SIMULATOR_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_SAGEPAY_SIMULATOR_DESC"
+                   class="inputbox" size="80" default="https://test.sagepay.com/Simulator/VSPFormGateway.asp"/>
+        </fieldset>
+    </fields>
+</form>

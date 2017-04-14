@@ -1,0 +1,9 @@
+.view-invoices .list-value,
+.view-invoices .list-vat,
+.view-invoices .list-total {
+    width: 100px;
+}
+
+.view-invoices .list-date {
+    width: 130px;
+}

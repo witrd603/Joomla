@@ -1,0 +1,17 @@
+a {
+    outline: none;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.lovefactory-info {
+    color: #999999;
+    float: left;
+    clear: left;
+}
+
+.admintable td {
+    vertical-align: top;
+}

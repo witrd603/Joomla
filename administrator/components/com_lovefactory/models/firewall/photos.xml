@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="photos" label="Photos">
+    <asset type="view">photo</asset>
+    <asset type="view">photos</asset>
+</section>

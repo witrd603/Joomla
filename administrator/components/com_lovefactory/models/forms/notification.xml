@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+    <fieldset name="details">
+        <field name="id" type="text" readonly="true" class="readonly"
+               label="JGLOBAL_FIELD_ID_LABEL" description="JGLOBAL_FIELD_ID_DESC"/>
+
+        <field name="type" type="FactoryNotificationType" required="true" default=""
+               onchange="Joomla.submitbutton('notification.update');"/>
+
+        <field name="lang_code" type="language" required="true">
+            <option value="*">JALL</option>
+        </field>
+
+        <field name="published" type="list" default="1" required="true">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field name="groups" type="lovefactoryusergroup" multiple="true" size="10"/>
+    </fieldset>
+
+    <fieldset name="message">
+        <field name="subject" type="text" required="true" size="80"/>
+        <field name="body" type="FactoryNotificationEditor" nolabel="false" required="true"
+               buttons="article,pagebreak,readmore" filter="raw"/>
+    </fieldset>
+</form>

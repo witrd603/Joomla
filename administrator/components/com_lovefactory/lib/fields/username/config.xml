@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+    <fields name="params">
+        <fieldset name="params">
+            <field name="ajax_check" type="list" default="1">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+
+            <field name="banned_usernames" type="textarea" hint="Enter one per line..." rows="10"/>
+
+            <field name="banned_characters" type="text"/>
+        </fieldset>
+    </fields>
+</form>

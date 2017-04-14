@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+    <fields name="params">
+        <fieldset name="params">
+            <field name="searchable_fields" type="FieldList" filters="Text,Textarea,Username" default=""
+                   multiple="true"/>
+
+        </fieldset>
+    </fields>
+</form>

@@ -1,0 +1,28 @@
+.view-inbox .unread {
+    font-weight: bold;
+}
+
+.view-inbox div.username,
+.view-outbox div.username {
+    width: 130px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.view-inbox div.no-results,
+.view-outbox div.no-results {
+    margin-bottom: 10px;
+}
+
+.view-message .actions {
+    padding-bottom: 5px;
+    margin: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+    overflow: hidden;
+}
+
+.view-compose input,
+.view-compose textarea {
+    width: 90%;
+}

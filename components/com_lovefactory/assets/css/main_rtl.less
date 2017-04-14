@@ -1,0 +1,55 @@
+.lovefactory-view {
+  .lovefactory-page {
+    .control-group {
+      .controls {
+        margin-right: 100px;
+        margin-left: 0;
+        margin-top: 0;
+      }
+
+      @media (max-width: 480px) {
+        .controls {
+          margin-right: 0;
+        }
+
+        label {
+          float: none;
+          text-align: right;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .span12 {
+          .controls {
+            margin-right: 0;
+          }
+        }
+      }
+
+      .control-label {
+        text-align: right;
+      }
+    }
+  }
+
+  #lovefactory-toolbar {
+    ul {
+      li {
+        float: right;
+
+        &.first {
+          margin-right: 15px;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  &.view-module-search {
+    .control-group {
+      label.control-label {
+        text-align: right;
+      }
+    }
+  }
+}

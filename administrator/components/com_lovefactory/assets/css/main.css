@@ -1,0 +1,86 @@
+div.width-20 {
+    width: 20%;
+}
+
+div.width-30 {
+    width: 30%;
+}
+
+div.width-35 {
+    width: 35%;
+}
+
+div.width-40 {
+    width: 40%;
+}
+
+div.width-45 {
+    width: 45%;
+}
+
+div.width-50 {
+    width: 50%;
+}
+
+div.width-55 {
+    width: 55%;
+}
+
+div.width-60 {
+    width: 60%;
+}
+
+div.width-65 {
+    width: 65%;
+}
+
+div.width-70 {
+    width: 70%;
+}
+
+div.width-80 {
+    width: 80%;
+}
+
+div.width-100 {
+    width: 100%;
+}
+
+.clrlft {
+    clear: left;
+}
+
+.clrrt {
+    clear: right;
+}
+
+.fltlft {
+    float: left;
+}
+
+.fltrt {
+    float: right;
+}
+
+.fltnone {
+    float: none;
+}
+
+ul.adminformlist {
+    padding: 0;
+    margin: 0;
+}
+
+ul.adminformlist li {
+    list-style-type: none;
+}
+
+#filter-bar {
+    height: auto;
+}
+
+.btn-group.btn-group-yesno > .btn {
+    min-width: 84px;
+    padding: 2px 12px;
+    margin-bottom: 9px;
+}

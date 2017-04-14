@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<notifications>
+    <notification type="signup_without_activation">
+        <option>name</option>
+        <option>site_name</option>
+        <option>site_url</option>
+    </notification>
+
+    <notification type="signup_with_admin_activation">
+        <option>name</option>
+        <option>site_name</option>
+        <option>site_url</option>
+        <option>activation_link</option>
+        <option>username</option>
+        <option>password</option>
+    </notification>
+
+    <notification type="signup_with_user_activation">
+        <option>name</option>
+        <option>site_name</option>
+        <option>site_url</option>
+        <option>activation_link</option>
+        <option>username</option>
+        <option>password</option>
+    </notification>
+
+    <notification type="signup_admin_notification">
+        <option>receiver_username</option>
+        <option>registered_username</option>
+        <option>site_name</option>
+        <option>site_url</option>
+    </notification>
+
+    <notification type="comment_received">
+        <option>receiver_display_name</option>
+        <option>sender_display_name</option>
+        <option>receiver_username</option>
+        <option>sender_username</option>
+        <option>message</option>
+        <option>comments_link</option>
+    </notification>
+
+    <notification type="comment_photo_received">
+        <option>receiver_display_name</option>
+        <option>sender_display_name</option>
+        <option>receiver_username</option>
+        <option>sender_username</option>
+        <option>message</option>
+        <option>comments_link</option>
+    </notification>
+
+    <notification type="comment_video_received">
+        <option>receiver_display_name</option>
+        <option>sender_display_name</option>
+        <option>receiver_username</option>
+        <option>sender_username</option>
+        <option>message</option>
+        <option>comments_link</option>
+    </notification>
+
+    <notification type="interaction_received">
+        <option>receiver_display_name</option>
+        <option>sender_display_name</option>
+        <option>receiver_username</option>
+        <option>sender_username</option>
+        <option>interactions_link</option>
+    </notification>
+
+    <notification type="message_received">
+        <option>receiver_display_name</option>
+        <option>sender_display_name</option>
+        <option>receiver_username</option>
+        <option>sender_username</option>
+        <option>message_body</option>
+        <option>messages_link</option>
+    </notification>
+
+    <notification type="rating_received">
+        <option>receiver_display_name</option>
+        <option>sender_display_name</option>
+        <option>receiver_username</option>
+        <option>sender_username</option>
+        <option>rating</option>
+        <option>profile_link</option>
+    </notification>
+
+    <notification type="membership_ending">
+        <option>receiver_username</option>
+        <option>days</option>
+    </notification>
+
+    <notification type="offline_payment">
+        <option>receiver_username</option>
+        <option>order_id</option>
+        <option>bank_details</option>
+    </notification>
+
+    <notification type="item_pending_approval" admin="true">
+        <option>receiver_username</option>
+        <option>item_type</option>
+    </notification>
+
+    <notification type="friend_request">
+        <option>receiver_display_name</option>
+        <option>sender_display_name</option>
+        <option>receiver_username</option>
+        <option>sender_username</option>
+        <option>message</option>
+    </notification>
+
+    <notification type="relationship_request">
+        <option>receiver_display_name</option>
+        <option>sender_display_name</option>
+        <option>receiver_username</option>
+        <option>sender_username</option>
+        <option>message</option>
+    </notification>
+
+    <notification type="new_order" admin="true">
+        <option>receiver_username</option>
+        <option>order_username</option>
+        <option>order_title</option>
+        <option>order_amount</option>
+        <option>order_currency</option>
+        <option>order_gateway</option>
+        <option>order_date</option>
+    </notification>
+
+    <notification type="new_payment" admin="true">
+        <option>receiver_username</option>
+        <option>payment_gateway</option>
+        <option>payment_amount</option>
+        <option>payment_currency</option>
+        <option>payment_status</option>
+        <option>payment_date</option>
+    </notification>
+
+    <notification type="new_report" admin="true">
+        <option>receiver_username</option>
+        <option>report_type</option>
+        <option>report_message</option>
+        <option>report_date</option>
+    </notification>
+
+    <notification type="profile_fillin_reminder">
+        <option>receiver_username</option>
+    </notification>
+
+    <notification type="membership_changed">
+        <option>receiver_username</option>
+        <option>receiver_display_name</option>
+        <option>membership_title</option>
+    </notification>
+</notifications>

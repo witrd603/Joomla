@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="details">
+        <!-- ID -->
+        <field name="id" type="text" default="0" readonly="true"
+               label="COM_LOVEFACTORY_PAYMENT_PLUGIN_FORM_ID_LABEL"
+               description="COM_LOVEFACTORY_PAYMENT_PLUGIN_FORM_ID_DESC"/>
+
+        <!-- Element -->
+        <field name="element" type="text" default="0" readonly="true" class="readonly"
+               label="COM_LOVEFACTORY_PAYMENT_PLUGIN_FORM_ELEMENT_LABEL"
+               description="COM_LOVEFACTORY_PAYMENT_PLUGIN_FORM_ELEMENT_DESC"/>
+
+        <!-- Title -->
+        <field name="title" type="text" default="" size="60"
+               label="COM_LOVEFACTORY_PAYMENT_PLUGIN_FORM_TITLE_LABEL"
+               description="COM_LOVEFACTORY_PAYMENT_PLUGIN_FORM_TITLE_DESC"/>
+
+        <!-- Published -->
+        <field name="published" type="list" default="0"
+               label="JPUBLISHED" description="JPUBLISHED">
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+        </field>
+
+        <!-- Logo -->
+        <field name="logo" type="text" default="" size="80"
+               label="COM_LOVEFACTORY_PAYMENT_PLUGIN_FORM_LOGO_LABEL"
+               description="COM_LOVEFACTORY_PAYMENT_PLUGIN_FORM_LOGO_DESC"/>
+    </fieldset>
+</form>

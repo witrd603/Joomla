@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+    <fields name="params">
+        <fieldset name="params">
+            <field name="choices" type="FieldChoices" default="" filter="JFormFieldFieldChoices::filter"
+                   label="COM_LOVEFACTORY_FORM_FIELD_CHOICES_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_CHOICES_DESC"/>
+            <field name="opposite" type="GenderOppositeField"/>
+        </fieldset>
+    </fields>
+</form>

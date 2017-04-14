@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="details">
+        <fields name="params">
+            <field name="email_notifications" type="list" default="1">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+
+            <field name="infobar" type="LoveFactoryInfobar" default="1">
+                <option value="0">JDISABLED</option>
+                <option value="1">JENABLED</option>
+                <option value="2">COM_LOVEFACTORY_FORM_SETTINGS_INFOBAR_OPTION_TOP</option>
+                <option value="3">COM_LOVEFACTORY_FORM_SETTINGS_INFOBAR_OPTION_BOTTOM</option>
+            </field>
+
+            <field name="date_format" type="list" default="0">
+                <option value="0">COM_LOVEFACTORY_FORM_SETTINGS_DATE_FORMAT_OPTION_SITE_DEFAULT</option>
+                <option value="Y-m-d H:i:s">Y-m-d H:i:s</option>
+                <option value="Y-m-d H:i">Y-m-d H:i</option>
+                <option value="m/d/Y, H:i">m/d/Y, H:i</option>
+                <option value="d/m/Y, H:i">d/m/Y, H:i</option>
+            </field>
+        </fields>
+    </fieldset>
+
+    <fieldset name="privacy">
+        <field name="online" type="LoveFactoryProfileOnlineStatus" default="0"/>
+    </fieldset>
+
+    <fields name="params">
+        <fields name="privacy">
+            <fieldset name="privacy">
+                <field name="comments" type="LoveFactoryPrivacyList" default="public"/>
+                <field name="activity_stream" type="LoveFactoryPrivacyList" default="public"/>
+                <field name="friends" type="LoveFactoryPrivacyList" default="public"/>
+            </fieldset>
+        </fields>
+    </fields>
+</form>

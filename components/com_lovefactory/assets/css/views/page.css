@@ -1,0 +1,245 @@
+span.required {
+    color: #ff0000;
+    font-weight: bold;
+    vertical-align: text-top;
+    margin-left: 2px;
+    font-size: large;
+}
+
+.lovefactory-page fieldset {
+    margin: 0;
+    padding: 15px;
+    border: 1px solid #dddddd;
+}
+
+.lovefactory-page fieldset + fieldset {
+    margin-top: 15px;
+}
+
+.lovefactory-page fieldset legend {
+    font-size: 14px;
+    font-weight: bold;
+    width: auto;
+    padding: 0 7px;
+    margin: 0;
+    border: 0;
+    line-height: inherit;
+}
+
+.lovefactory-page .control-group {
+    margin-bottom: 5px;
+}
+
+.lovefactory-page .control-group:last-child {
+    margin-bottom: 0;
+}
+
+.lovefactory-page .control-group.no-label .controls {
+    margin: 0;
+}
+
+.lovefactory-page .control-group .control-field {
+    margin-bottom: 5px;
+}
+
+.lovefactory-page .control-group .control-label {
+    font-weight: bold;
+    width: auto;
+    max-width: 80px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+.lovefactory-page .control-group .controls {
+    margin-left: 100px;
+}
+
+@media (max-width: 480px) {
+    .lovefactory-page .control-group .controls {
+        margin-left: 0;
+    }
+
+    .lovefactory-page .control-group .control-label {
+        display: block;
+        margin-bottom: 3px;
+        max-width: 100%;
+    }
+
+    .lovefactory-page .control-group select {
+        max-width: 100px;
+    }
+
+    .lovefactory-page .control-group select option {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .lovefactory-page .span12 .controls {
+        margin-left: 0;
+    }
+
+    .lovefactory-page .span12 .control-label {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.lovefactory-page label.checkbox {
+    margin: 0;
+    padding-top: 0;
+}
+
+.lovefactory-page textarea,
+.lovefactory-page select,
+.lovefactory-page input[type="password"],
+.lovefactory-page input[type="text"] {
+    width: 100%;
+    max-width: 100%;
+    padding: 3px;
+    font-size: inherit;
+    font-family: inherit;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.lovefactory-page select,
+.lovefactory-page input[type="password"],
+.lovefactory-page input[type="text"] {
+    height: 26px;
+}
+
+.lovefactory-page select[multiple="multiple"] {
+    height: auto;
+    min-height: 100px;
+}
+
+.lovefactory-page select {
+    width: auto;
+    max-width: 100%;
+}
+
+.lovefactory-page select option {
+    max-width: 200px;
+}
+
+.lovefactory-page ul.field-info {
+    line-height: normal;
+}
+
+.lovefactory-page ul.field-info li {
+    line-height: normal;
+    display: inline-block;
+}
+
+.lovefactory-page ul.field-info li:empty {
+    display: none;
+}
+
+.lovefactory-page ul.field-info li span.fa {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.lovefactory-page ul.field-info li .lock-status {
+    color: #cc0000;
+}
+
+.lovefactory-page ul.field-info li .description {
+    cursor: pointer;
+}
+
+.lovefactory-page ul.field-info li .privacy select {
+    padding: 0;
+    height: auto;
+    line-height: normal;
+    display: none;
+    vertical-align: middle;
+}
+
+.lovefactory-page ul.field-info li .locked-privacy {
+    cursor: pointer;
+}
+
+.lovefactory-page .field-error {
+    color: #cc0000;
+    margin-bottom: 5px;
+}
+
+.lovefactory-page .field-error span.fa {
+    margin-right: 5px;
+}
+
+.lovefactory-page .actions {
+    margin-top: 10px;
+    background-color: #f6f6f6;
+    padding: 3px 10px;
+}
+
+.lovefactory-page .actions:empty {
+    display: none;
+}
+
+.lovefactory-page div.lovefactory-field-radio label,
+.lovefactory-page div.lovefactory-field-checkbox label {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.lovefactory-page div.lovefactory-field-radio input[type="checkbox"],
+.lovefactory-page div.lovefactory-field-checkbox input[type="checkbox"],
+.lovefactory-page div.lovefactory-field-radio input[type="radio"],
+.lovefactory-page div.lovefactory-field-checkbox input[type="radio"] {
+    padding: 0;
+}
+
+.lovefactory-page div.lovefactory-field-radio input[type="radio"],
+.lovefactory-page div.lovefactory-field-checkbox input[type="radio"] {
+    margin: 0 5px 3px 0;
+}
+
+.lovefactory-page div.lovefactory-field-radio input[type="checkbox"],
+.lovefactory-page div.lovefactory-field-checkbox input[type="checkbox"] {
+    margin: 2px 5px 0 0;
+}
+
+.lovefactory-page div.lovefactory-field-radio.display-line label,
+.lovefactory-page div.lovefactory-field-checkbox.display-line label {
+    margin-right: 5px;
+}
+
+.lovefactory-page div.lovefactory-field-radio.display-row label,
+.lovefactory-page div.lovefactory-field-checkbox.display-row label {
+    display: block;
+}
+
+.lovefactory-page .lovefactory-field-error {
+    border-color: red;
+}
+
+.lovefactory-page div.error-username-exists,
+.lovefactory-page div.error-email-exists {
+    color: red;
+    font-size: 11px;
+    margin-top: 3px;
+    line-height: normal;
+}
+
+.static .lovefactory-page .span1,
+.static .lovefactory-page .span2,
+.static .lovefactory-page .span3,
+.static .lovefactory-page .span4,
+.static .lovefactory-page .span5,
+.static .lovefactory-page .span6,
+.static .lovefactory-page .span7,
+.static .lovefactory-page .span8,
+.static .lovefactory-page .span9,
+.static .lovefactory-page .span10,
+.static .lovefactory-page .span11,
+.static .lovefactory-page .span12 {
+    width: auto;
+}

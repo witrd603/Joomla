@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="activity" label="Activity">
+    <asset type="view">activity</asset>
+
+    <fixed>
+        <rule>ActivityEnabled</rule>
+        <rule>ActivityPrivacy</rule>
+    </fixed>
+</section>

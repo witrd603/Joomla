@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="membersmap" label="Members map">
+    <asset type="view">membersmap</asset>
+
+    <fixed>
+        <rule>GoogleMapsEnabled</rule>
+        <rule>MembersMapEnabled</rule>
+    </fixed>
+</section>

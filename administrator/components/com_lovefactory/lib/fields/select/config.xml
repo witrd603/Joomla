@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+    <fields name="params">
+        <fieldset name="params">
+            <field name="choices" type="FieldChoices" default="" filter="JFormFieldFieldChoices::filter"
+                   label="COM_LOVEFACTORY_FORM_FIELD_CHOICES_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_CHOICES_DESC"/>
+
+            <field name="blank_choice" type="list" default="1"
+                   label="COM_LOVEFACTORY_FORM_FIELD_BLANK_CHOICE_LABEL"
+                   description="COM_LOVEFACTORY_FORM_FIELD_BLANK_CHOICE_DESC">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+
+            <field name="search_mode_multiple" type="list" default="0">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+
+        </fieldset>
+    </fields>
+</form>

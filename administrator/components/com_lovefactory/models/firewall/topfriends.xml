@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="topfriends" label="Top friends">
+    <asset type="view">topfriends</asset>
+
+    <fixed>
+        <rule>FriendsEnabled</rule>
+        <rule>TopFriendsEnabled</rule>
+    </fixed>
+</section>

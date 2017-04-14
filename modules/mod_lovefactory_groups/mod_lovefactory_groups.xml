@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.5" method="upgrade" client="site">
+  <name>Love Factory Groups</name>
+  <description>MOD_LOVEFACTORY_GROUPS_DESC_XML</description>
+  <files>
+    <filename module="mod_lovefactory_groups">mod_lovefactory_groups.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <languages>
+    <language tag="en-GB">en-GB.mod_lovefactory_groups.ini</language>
+    <language tag="en-GB">en-GB.mod_lovefactory_groups.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="limit" type="text" default="5" label="MOD_LOVEFACTORY_GROUPS_PARAMS_LIMIT_LABEL" description="MOD_LOVEFACTORY_GROUPS_PARAMS_LIMIT_DESC"/>
+        <field name="mode" type="list" default="members" label="MOD_LOVEFACTORY_GROUPS_PARAMS_MODE_LABEL" description="MOD_LOVEFACTORY_GROUPS_PARAMS_MODE_DESC">
+          <option value="members">MOD_LOVEFACTORY_GROUPS_PARAMS_MODE_OPTION_MEMBERS</option>
+          <option value="posts">MOD_LOVEFACTORY_GROUPS_PARAMS_MODE_OPTION_POSTS</option>
+        </field>
+        <field name="Itemid" type="menuitem" default="" label="MOD_LOVEFACTORY_GROUPS_PARAMS_ITEMID_LABEL" description="MOD_LOVEFACTORY_GROUPS_PARAMS_ITEMID_DESC">
+          <option value="">MOD_LOVEFACTORY_GROUPS_PARAMS_ITEMID_OPTION_CURRENT</option>
+        </field>
+        <field name="moduleclass_sfx" type="text" default="" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"/>
+      </fieldset>
+    </fields>
+  </config>
+  <version>4.4.7</version>
+  <author>thePHPfactory</author>
+  <copyright>SKEPSIS Consult SRL</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>contact@thephpfactory.com</authorEmail>
+  <authorUrl>http://www.thephpfactory.com</authorUrl>
+  <url>http://www.thephpfactory.com</url>
+  <creationDate>May 2009</creationDate>
+</extension>

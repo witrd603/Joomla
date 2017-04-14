@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+    <fields name="params">
+        <fieldset name="params">
+            <field name="search_mode" type="list" default="1">
+                <option value="0">COM_LOVEFACTORY_FORM_FIELD_RELATIONSHIP_SEARCH_MODE_WITHOUT</option>
+                <option value="1">COM_LOVEFACTORY_FORM_FIELD_RELATIONSHIP_SEARCH_MODE_WITH</option>
+            </field>
+
+            <field name="display_mode" type="list" default="photo">
+                <option value="link">COM_LOVEFACTORY_FORM_FIELD_RELATIONSHIP_DISPLAY_MODE_LINK</option>
+                <option value="photo">COM_LOVEFACTORY_FORM_FIELD_RELATIONSHIP_DISPLAY_MODE_PHOTO</option>
+            </field>
+
+        </fieldset>
+    </fields>
+</form>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="params">
+            <!-- Merchant Id -->
+            <field name="merchant_id" type="text" class="inputbox" size="60" default="" required="true"
+                   label="FACTORY_PAYMENT_PLUGIN_IDEALING_MERCHANT_ID_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_IDEALING_MERCHANT_ID_DESC"/>
+
+            <!-- Sub Id -->
+            <field name="sub_id" type="text" class="inputbox" size="5" default="0" required="true"
+                   label="FACTORY_PAYMENT_PLUGIN_IDEALING_SUB_ID_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_IDEALING_SUB_ID_DESC"/>
+
+            <!-- Hash Key -->
+            <field name="hash_key" type="text" class="inputbox" size="60" default="" required="true"
+                   label="FACTORY_PAYMENT_PLUGIN_IDEALING_HASH_KEY_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_IDEALING_HASH_KEY_DESC"/>
+
+            <!-- Use Test mode -->
+            <field name="test_mode" type="list" class="inputbox" default="1" required="true"
+                   label="FACTORY_PAYMENT_PLUGIN_IDEALING_TEST_MODE_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_IDEALING_TEST_MODE_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+        </fieldset>
+    </fields>
+</form>

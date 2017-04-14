@@ -1,0 +1,47 @@
+.view-profile .status-update input#user-status-update {
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 28px;
+}
+
+.view-profile .ratings .my-rating,
+.view-profile .ratings .latest-votes {
+    margin-top: 15px;
+}
+
+.view-profile .ratings .profile-vote {
+    margin-bottom: 15px;
+}
+
+.view-profile .ratings .lovefactory-rating-star i.factory-icon {
+    margin: 0;
+}
+
+.view-profile .ratings .profile-rating,
+.view-profile .ratings .my-rating {
+    text-align: center;
+}
+
+.view-profile .ratings .latest-votes .vote {
+    display: inline-block;
+    width: 40px;
+}
+
+.view-profile .ratings .my-rating b,
+.view-profile .ratings .profile-rating b {
+    font-size: large;
+}
+
+@media (max-width: 979px) and (min-width: 767px) {
+    .lovefactory-page .control-group .control-label {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .lovefactory-page .control-group .controls {
+        margin-left: 0;
+        clear: both;
+    }
+}

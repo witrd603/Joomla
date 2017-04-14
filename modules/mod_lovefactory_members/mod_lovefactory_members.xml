@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.5" method="upgrade" client="site">
+  <name>Love Factory Members</name>
+  <description>MOD_LOVEFACTORY_MEMBERS_DESC_XML</description>
+  <files>
+    <filename module="mod_lovefactory_members">mod_lovefactory_members.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <languages>
+    <language tag="en-GB">en-GB.mod_lovefactory_members.ini</language>
+    <language tag="en-GB">en-GB.mod_lovefactory_members.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params" addfieldpath="/administrator/components/com_lovefactory/lib/elements/">
+      <fieldset name="basic">
+        <field name="mode" type="list" default="latest" label="MOD_LOVEFACTORY_MEMBERS_PARAMS_MODE_LABEL" description="MOD_LOVEFACTORY_MEMBERS_PARAMS_MODE_DESC">
+          <option value="latest">MOD_LOVEFACTORY_MEMBERS_PARAMS_MODE_OPTION_LATEST</option>
+          <option value="rating">MOD_LOVEFACTORY_MEMBERS_PARAMS_MODE_OPTION_RATED</option>
+          <option value="viewed">MOD_LOVEFACTORY_MEMBERS_PARAMS_MODE_OPTION_VIEWED</option>
+          <option value="visitors">MOD_LOVEFACTORY_MEMBERS_PARAMS_MODE_OPTION_VISITORS</option>
+          <option value="random">MOD_LOVEFACTORY_MEMBERS_PARAMS_MODE_OPTION_RANDOM</option>
+          <option value="birthday">MOD_LOVEFACTORY_MEMBERS_PARAMS_MODE_OPTION_BIRTHDAYS</option>
+          <option value="visit">MOD_LOVEFACTORY_MEMBERS_PARAMS_MODE_OPTION_VISIT</option>
+        </field>
+        <field name="pages" type="text" default="1" label="MOD_LOVEFACTORY_MEMBERS_PARAMS_PAGES_TITLE" description="MOD_LOVEFACTORY_MEMBERS_PARAMS_PAGES_DESC"/>
+        <field name="rows" type="text" default="2" label="MOD_LOVEFACTORY_MEMBERS_PARAMS_ROWS_TITLE" description="MOD_LOVEFACTORY_MEMBERS_PARAMS_ROWS_DESC"/>
+        <field name="columns" type="text" default="2" label="MOD_LOVEFACTORY_MEMBERS_PARAMS_COLUMNS_TITLE" description="MOD_LOVEFACTORY_MEMBERS_PARAMS_COLUMNS_DESC"/>
+        <field name="Itemid" type="menuitem" default="" label="MOD_LOVEFACTORY_MEMBERS_PARAMS_ITEMID_TITLE" description="MOD_LOVEFACTORY_MEMBERS_PARAMS_ITEMID_DESC">
+          <option value="">MOD_LOVEFACTORY_MEMBERS_PARAMS_ITEMID_OPTION_CURRENT</option>
+        </field>
+      </fieldset>
+      <fieldset name="advanced">
+        <field name="filter_opposite_gender" type="list" default="" label="MOD_LOVEFACTORY_MEBERS_PARAMS_FILTER_OPPOSITE_GENDER_LABEL" description="MOD_LOVEFACTORY_MEBERS_PARAMS_FILTER_OPPOSTIE_GENDER_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="filter_gender" type="genders" default="" label="MOD_LOVEFACTORY_MEBERS_PARAMS_FILTER_GENDER_LABEL" description="MOD_LOVEFACTORY_MEBERS_PARAMS_FILTER_GENDER_DESC"/>
+        <field name="filter_membership" type="memberships" default="" label="MOD_LOVEFACTORY_MEBERS_PARAMS_FILTER_MEMBERSHIP_LABEL" description="MOD_LOVEFACTORY_MEBERS_PARAMS_FILTER_MEMBERSHIP_DESC"/>
+        <field name="profile_photo_filter" type="list" default="0" label="MOD_LOVEFACTORY_MEBERS_PARAMS_PROFILE_PHOTO_FILTER_GENDER_LABEL" description="MOD_LOVEFACTORY_MEBERS_PARAMS_PROFILE_PHOTO_FILTER_GENDER_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="user_filter_gender" type="list" default="0" label="MOD_LOVEFACTORY_MEBERS_PARAMS_USER_FILTER_GENDER_LABEL" description="MOD_LOVEFACTORY_MEBERS_PARAMS_USER_FILTER_GENDER_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="show_username" type="list" default="1" label="MOD_LOVEFACTORY_MEBERS_PARAMS_SHOW_USERNAME_LABEL" description="MOD_LOVEFACTORY_MEBERS_PARAMS_SHOW_USERNAME_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="link_target_blank" type="list" default="0" label="MOD_LOVEFACTORY_MEMBERS_PARAMS_LINK_TARGET_BLANK_LABEL" description="MOD_LOVEFACTORY_MEMBERS_PARAMS_LINK_TARGET_BLANK_DESC">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="field_birthdate" type="BirthdateField" default="field_6" label="Birthdate field" description="Select the birthdate field to use."/>
+        <field name="moduleclass_sfx" type="text" default="" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"/>
+      </fieldset>
+    </fields>
+  </config>
+  <version>4.4.7</version>
+  <author>thePHPfactory</author>
+  <copyright>SKEPSIS Consult SRL</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>contact@thephpfactory.com</authorEmail>
+  <authorUrl>http://www.thephpfactory.com</authorUrl>
+  <url>http://www.thephpfactory.com</url>
+  <creationDate>May 2009</creationDate>
+</extension>

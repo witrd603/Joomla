@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="invoices" label="Invoices">
+    <asset type="view">invoice</asset>
+    <asset type="view">invoices</asset>
+
+    <fixed>
+        <rule>Logged</rule>
+    </fixed>
+</section>

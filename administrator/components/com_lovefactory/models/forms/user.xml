@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+    <fieldset name="details">
+        <field name="user_id" type="text" default="" readonly="true" class="readonly"
+               label="JGLOBAL_FIELD_ID_LABEL" description="JGLOBAL_FIELD_ID_DESC"/>
+        <field name="username" type="text" default="" readonly="true" class="readonly"/>
+        <field name="date" type="text" readonly="true" class="readonly" disabled="true"/>
+        <field name="membership_sold_id" type="LoveFactoryUserMembership" readonly="true" class="readonly"
+               disabled="true" size="40"/>
+        <field name="banned" type="list" default="0">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+    </fieldset>
+
+    <fields name="membership">
+        <fieldset name="membership">
+            <field name="membership" type="LoveFactoryMembershipsList" default=""/>
+            <field name="until" type="calendar" default="" filter="user_utc"/>
+        </fieldset>
+    </fields>
+</form>

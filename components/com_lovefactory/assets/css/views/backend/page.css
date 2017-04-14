@@ -1,0 +1,89 @@
+.field-state-highlight, .zone-state-highlight {
+    border: 1px dashed #999999 !important;
+    background-color: #ffffdd !important;
+}
+
+.zone-state-highlight {
+    margin-bottom: 15px;
+}
+
+#zones {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#zones table {
+    width: 100%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    border-bottom-width: 2px;
+    margin-bottom: 15px;
+}
+
+#zones table th {
+    text-align: left;
+    padding: 10px 10px;
+    background-color: #cccccc;
+    border-bottom: 1px dotted #999999;
+}
+
+#zones table th input {
+    width: 50%;
+    font-size: 12px;
+    padding: 3px 5px;
+    -moz-border-radius: 5px;
+}
+
+#zones tbody td {
+    padding: 10px 0px;
+    background-color: #eeeeee;
+}
+
+#zones tbody td div {
+    margin-top: 10px;
+}
+
+#zones tfoot td {
+    background-color: #cccccc;
+    padding: 10px;
+    border-top: 1px dotted #999999;
+}
+
+.fields {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    min-height: 20px;
+}
+
+.fields li {
+    -moz-border-radius: 5px;
+    background: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    border: 1px dotted #cccccc;
+    font-weight: bold;
+}
+
+.system a {
+    color: #ff0000 !important;
+}
+
+.field-handle, .zone-handle {
+    float: right;
+    cursor: move;
+    color: #999999;
+}
+
+.zone-handle {
+    cursor: n-resize;
+}
+
+.delete li {
+    background-color: #666666;
+}
+
+.delete-zone {
+    float: right;
+}

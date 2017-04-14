@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+    <fields name="params">
+        <fieldset name="params">
+            <field name="min_age" type="text" default="18"/>
+            <field name="max_age" type="text" default="40"/>
+            <field name="month_format" type="list" default="numeric">
+                <option value="numeric">COM_LOVEFACTORY_FORM_FIELD_MONTH_FORMAT_NUMERIC</option>
+                <option value="text">COM_LOVEFACTORY_FORM_FIELD_MONTH_FORMAT_TEXT</option>
+            </field>
+            <field name="format" type="list" default="dmY">
+                <option value="dmY">dd/mm/yyyy</option>
+                <option value="mdY">mm/dd/yyyy</option>
+            </field>
+            <field name="separator" type="text"/>
+        </fieldset>
+    </fields>
+</form>

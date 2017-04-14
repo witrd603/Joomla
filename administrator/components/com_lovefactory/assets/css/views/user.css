@@ -1,0 +1,24 @@
+.slider-table-wrapper {
+    margin: 10px;
+}
+
+.slider-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.slider-table thead {
+    background-color: #cccccc;
+}
+
+.slider-table td, .slider-table th {
+    padding: 5px;
+}
+
+.slider-table tr.alternate td {
+    background-color: #eeeeee;
+}
+
+.slider-table .center {
+    text-align: center;
+}

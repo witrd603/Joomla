@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+    <fields name="params">
+        <fieldset name="params">
+            <field name="theme" type="list" default="red">
+                <option value="red">COM_LOVEFACTORY_FORM_FIELD_RECAPTCHA_THEME_OPTION_RED</option>
+                <option value="white">COM_LOVEFACTORY_FORM_FIELD_RECAPTCHA_THEME_OPTION_WHITE</option>
+                <option value="blackglass">COM_LOVEFACTORY_FORM_FIELD_RECAPTCHA_THEME_OPTION_BLACKGLASS</option>
+                <option value="clean">COM_LOVEFACTORY_FORM_FIELD_RECAPTCHA_THEME_OPTION_CLEAN</option>
+            </field>
+
+        </fieldset>
+    </fields>
+</form>

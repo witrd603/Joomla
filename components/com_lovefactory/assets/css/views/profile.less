@@ -1,0 +1,58 @@
+
+&.view-profile {
+  .status-update {
+    input#user-status-update {
+      margin-bottom: 5px;
+      width: 100%;
+      box-sizing: border-box;
+      min-height: 28px;
+    }
+  }
+
+  .ratings {
+    .my-rating,
+    .latest-votes {
+      margin-top: 15px;
+    }
+
+    .profile-vote {
+      margin-bottom: 15px;
+    }
+
+    .lovefactory-rating-star i.factory-icon {
+      margin: 0;
+    }
+
+    .profile-rating,
+    .my-rating {
+      text-align: center;
+    }
+
+    .latest-votes .vote {
+      display: inline-block;
+      width: 40px;
+    }
+
+    .my-rating b,
+    .profile-rating b {
+      font-size: large;
+    }
+  }
+}
+
+.lovefactory-page {
+  @media (max-width: 979px) and (min-width: 767px) {
+    .control-group {
+      .control-label {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .controls {
+        margin-left: 0;
+        clear: both;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="params">
+            <!-- Layoutcode -->
+            <field name="layoutcode" type="text" class="inputbox" size="60" default="" required="true"
+                   label="FACTORY_PAYMENT_PLUGIN_TARGETPAY_LAYOUTCODE_LABEL"
+                   description="FACTORY_PAYMENT_PLUGIN_TARGETPAY_LAYOUTCODE_DESC"/>
+        </fieldset>
+    </fields>
+</form>

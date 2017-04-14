@@ -1,0 +1,54 @@
+.privacy-button {
+    display: inline-block;
+}
+
+.privacy-toggle .factory-icon {
+    margin: 0;
+}
+
+.privacy-toggle {
+    display: inline-block;
+    padding: 1px 0 1px 5px;
+    border-radius: 0;
+    border: 1px solid transparent;
+}
+
+.lovefactory-view div.privacy-button a.privacy-toggle:hover {
+    background-color: #dddddd;
+    border-color: #aaaaaa;
+}
+
+.lovefactory-view div.privacy-button a.privacy-toggle.opened {
+    background-color: #777777;
+    border-color: #777777;
+    outline: none;
+}
+
+#main .lovefactory-view .privacy-options,
+.privacy-options {
+    position: absolute;
+    border-radius: 0;
+    background-color: #ffffff;
+    border: 1px solid #777777;
+    border-bottom-width: 2px;
+    display: block;
+    padding: 5px 0 !important;
+    min-width: 120px;
+    z-index: 1;
+    box-shadow: 0 4px 11px -6px #000000;
+    /*margin-left: 3px;*/
+}
+
+#main .lovefactory-view .privacy-options a,
+.privacy-options a {
+    display: block;
+    padding: 2px 10px;
+    color: #000000;
+}
+
+#main .lovefactory-view .privacy-options a:hover,
+.privacy-options a:hover {
+    background-color: #dddddd !important;
+    text-decoration: none !important;
+    color: #000000 !important;
+}

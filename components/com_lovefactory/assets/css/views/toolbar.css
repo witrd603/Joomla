@@ -1,0 +1,68 @@
+#lovefactory-toolbar {
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #dddddd;
+    border-radius: 5px 5px 0 0;
+    padding: 15px 0 0 0;
+    box-shadow: 0 5px 9px -9px #000000;
+}
+
+#lovefactory-toolbar .counter {
+    position: absolute;
+    top: -6px;
+    right: 3px;
+}
+
+#lovefactory-toolbar .counter.icon-counter-0 {
+    display: none;
+}
+
+#lovefactory-toolbar ul {
+    width: 100%;
+    float: left;
+    border-bottom: 5px solid #CC0000;
+    padding: 0;
+    margin: 0;
+}
+
+#lovefactory-toolbar ul li {
+    float: left;
+    background-color: #444444;
+    margin-right: 3px;
+    list-style-type: none;
+    border-radius: 5px 5px 0 0;
+}
+
+#lovefactory-toolbar ul li.active {
+    background-color: #CC0000;
+    box-shadow: 0 -3px 7px -7px #000000 inset;
+}
+
+#lovefactory-toolbar ul li.first {
+    margin-left: 15px;
+}
+
+#lovefactory-toolbar ul li a {
+    padding: 3px 20px;
+    display: block;
+    background-color: transparent;
+    color: #eeeeee;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #506522;
+    position: relative;
+}
+
+#lovefactory-toolbar ul li a i.factory-icon {
+    margin: 0;
+}
+
+@media (max-width: 480px) {
+    #lovefactory-toolbar ul li.first {
+        margin-left: 5px;
+    }
+
+    #lovefactory-toolbar ul li a {
+        padding: 3px 8px;
+    }
+}

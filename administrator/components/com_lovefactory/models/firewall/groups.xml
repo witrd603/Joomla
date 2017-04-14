@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="groups" label="Groups">
+    <asset type="view">group</asset>
+    <asset type="view">groupbanned</asset>
+    <asset type="view">groupedit</asset>
+    <asset type="view">groupmembers</asset>
+    <asset type="view">groups</asset>
+    <asset type="view">groupthread</asset>
+    <asset type="view">groupthreadedit</asset>
+    <asset type="view">groupthreadeds</asset>
+
+    <fixed>
+        <rule>GroupsEnabled</rule>
+    </fixed>
+</section>

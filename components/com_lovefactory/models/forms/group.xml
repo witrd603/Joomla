@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+    <fieldset name="details">
+        <field name="title" type="text" required="true"/>
+        <field name="description" type="textarea" rows="10"/>
+        <field name="private" type="list">
+            <option value="0">COM_LOVEFACTORY_GROUPEDIT_GROUP_PUBLIC</option>
+            <option value="1">COM_LOVEFACTORY_GROUPEDIT_GROUP_PRIVATE</option>
+        </field>
+    </fieldset>
+</form>

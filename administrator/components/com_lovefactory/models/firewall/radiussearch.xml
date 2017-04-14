@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="radiussearch" label="Radius search">
+    <asset type="view">radiussearch</asset>
+
+    <fixed>
+        <rule>GoogleMapsEnabled</rule>
+        <rule>RadiusSearchEnabled</rule>
+    </fixed>
+</section>

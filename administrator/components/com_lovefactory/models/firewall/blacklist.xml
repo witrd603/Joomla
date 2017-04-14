@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="blacklist" label="Ignore list">
+    <asset type="view">blocked</asset>
+    <asset type="controller">blacklist</asset>
+
+    <fixed>
+        <rule>Logged</rule>
+    </fixed>
+</section>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+    <fields name="params">
+        <fieldset name="params">
+
+            <field name="unit" type="list" default="metric">
+                <option value="metric">COM_LOVEFACTORY_FORM_FIELD_HEIGHT_UNIT_METRIC</option>
+                <option value="imperial">COM_LOVEFACTORY_FORM_FIELD_HEIGHT_UNIT_IMPERIAL</option>
+            </field>
+
+            <fields name="interval">
+                <fieldset name="params">
+                    <field name="min" type="text" filter="integer" default="40"/>
+                    <field name="max" type="text" filter="integer" default="150"/>
+                    <field name="step" type="text" filter="integer" default="10"/>
+                </fieldset>
+            </fields>
+
+
+        </fieldset>
+    </fields>
+</form>

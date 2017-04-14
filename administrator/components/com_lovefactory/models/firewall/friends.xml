@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="friends" label="Friends">
+    <asset type="view">myfriends</asset>
+    <asset type="view">friends</asset>
+    <asset type="view">requests</asset>
+
+    <fixed>
+        <rule>FriendsEnabled</rule>
+    </fixed>
+</section>

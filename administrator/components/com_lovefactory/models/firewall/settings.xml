@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="settings" label="Profile settings">
+    <asset type="view">settings</asset>
+
+    <fixed>
+        <rule>Logged</rule>
+    </fixed>
+</section>

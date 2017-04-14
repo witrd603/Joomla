@@ -1,0 +1,76 @@
+/* List */
+.lovefactory-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.lovefactory-list th {
+    padding: 10px;
+}
+
+.lovefactory-list thead,
+.lovefactory-list tbody {
+    border: 1px solid #cccccc;
+}
+
+.lovefactory-list tbody td {
+    padding: 7px 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.lovefactory-list thead th {
+    background-color: #dddddd;
+}
+
+.lovefactory-list tr.alternate td {
+    background-color: #eeeeee;
+}
+
+.lovefactory-list th.batch {
+    width: 13px;
+}
+
+.lovefactory-list .list-checkbox {
+    width: 15px;
+}
+
+.lovefactory-list .left {
+    text-align: left;
+}
+
+.lovefactory-list .right {
+    text-align: right;
+}
+
+.lovefactory-list .center {
+    text-align: center;
+}
+
+.lovefactory-view .lovefactory-filters {
+    margin: 10px 0;
+    text-align: right;
+}
+
+.lovefactory-view .lovefactory-filters label {
+    color: #999999;
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+
+.lovefactory-view .lovefactory-filters .left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+#main .lovefactory-view .button a:hover,
+#main .lovefactory-view .button a:active,
+#main .lovefactory-view .button a:focus,
+.button a:hover,
+.button a:active,
+.button a:focus {
+    text-decoration: none;
+    color: #000000;
+}

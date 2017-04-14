@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section name="interactions" label="Interactions">
+    <asset type="view">interactions</asset>
+
+    <fixed>
+        <rule>InteractionsEnabled</rule>
+        <rule>Logged</rule>
+    </fixed>
+</section>

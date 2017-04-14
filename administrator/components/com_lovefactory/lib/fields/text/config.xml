@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+    <fields name="params">
+        <fieldset name="params">
+            <field name="min_length" type="text" default="" size="5"
+                   label="COM_LOVEFACTORY_FIELD_TEXT_PARAMS_MIN_LENGTH_LABEL"
+                   description="COM_LOVEFACTORY_FIELD_TEXT_PARAMS_MIN_LENGTH_DESC"/>
+
+            <field name="max_length" type="text" default="" size="5"
+                   label="COM_LOVEFACTORY_FIELD_TEXT_PARAMS_MAX_LENGTH_LABEL"
+                   description="COM_LOVEFACTORY_FIELD_TEXT_PARAMS_MAX_LENGTH_DESC"/>
+
+            <field name="validation" type="listextra" default="" extra="custom"
+                   label="COM_LOVEFACTORY_FIELD_TEXT_PARAMS_VALIDATION_LABEL"
+                   description="COM_LOVEFACTORY_FIELD_TEXT_PARAMS_VALIDATION_DESC">
+                <option value="">COM_LOVEFACTORY_FIELD_TEXT_PARAMS_VALIDATION_OPTION_NONE</option>
+                <option value="numeric">COM_LOVEFACTORY_FIELD_TEXT_PARAMS_VALIDATION_OPTION_NUMERIC</option>
+                <option value="custom">COM_LOVEFACTORY_FIELD_TEXT_PARAMS_VALIDATION_OPTION_CUSTOM</option>
+            </field>
+
+            <field name="validation_regexp" type="text" default="" hint="/[a-zA-Z]+/" class="validation_custom"
+                   label="Custom regexp pattern"
+                   description="Enter a valid php regexp pattern to perform the validation against."/>
+
+            <field name="validation_regexp_error" type="TranslatedText" class="validation_custom"
+                   label="Custom validation error message"
+                   description="Enter the message to be displayed to the user if the custom validation fails."/>
+
+        </fieldset>
+    </fields>
+
+</form>
