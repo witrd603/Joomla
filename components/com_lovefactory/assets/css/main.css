@@ -354,8 +354,8 @@
 .lovefactory-view #lovefactory-toolbar {
     overflow: hidden;
     margin-bottom: 20px;
-    background-color: #dddddd;
-    border-radius: 5px 5px 0 0;
+    background-color: #FFFFFF;
+    border-radius: 0 0 0 0;
     padding: 15px 0 0 0;
     box-shadow: 0 5px 9px -9px #000000;
 }
@@ -373,7 +373,7 @@
 .lovefactory-view #lovefactory-toolbar ul {
     width: 100%;
     float: left;
-    border-bottom: 5px solid #CC0000;
+    border-bottom: 5px solid #21618C; 
     padding: 0;
     margin: 0;
 }
@@ -383,11 +383,11 @@
     background-color: #444444;
     margin-right: 3px;
     list-style-type: none;
-    border-radius: 5px 5px 0 0;
+    border-radius: 0 0 0 0;
 }
 
 .lovefactory-view #lovefactory-toolbar ul li.active {
-    background-color: #CC0000;
+    background-color: #21618C;
     box-shadow: 0 -3px 7px -7px #000000 inset;
 }
 

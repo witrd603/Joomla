@@ -1,25 +1,20 @@
-﻿<?php
+<?php
 
 defined('_JEXEC') or die('Restricted access');
 
 class LovefactorySettings
 {
-  var $require_fillin                           = 0;
+  var $opposite_gender_search                   = 1;
+  var $opposite_gender_display                  = 1;
   var $currency_symbol                          = 1;
-  var $enable_youtube_integration               = 0;
-  var $youtube_api_key                          = '';
-  var $create_profile_admin_groups              = array();
-  var $registration_membership                  = 0;
-  var $restrict_default_membership              = 0;
-  var $opposite_gender_search                   = 0;
-  var $opposite_gender_display                  = 0;
+  var $require_fillin                           = 1;
   var $bootstrap_template                       = 1;
-  var $display_user_name                        = array('','');
+  var $registration_membership                  = 0;
+  var $restrict_default_membership              = 1;
   var $members_map_show_profile_event           = "mouseover";
   var $members_map_grouped_members_display      = "map";
-  var $remove_ratings_on_profile_remove         = 1;
   var $friendship_requests_limit                = 5;
-  var $friendship_request_message               = 0;
+  var $friendship_request_message               = 1;
   var $location_field_gmap_field                = 43;
   var $registration_fields_mapping_username     = 3;
   var $registration_fields_mapping_email        = 12;
@@ -29,12 +24,13 @@ class LovefactorySettings
   var $photo_max_width                          = 600;
   var $photo_max_height                         = 800;
   var $photos_storage_mode                      = 1;
-  var $photos_max_size                          = 1;
+  var $photos_max_size                          = 10;
   var $thumbnail_max_height                     = 100;
   var $thumbnail_max_width                      = 100;
   var $enable_comments                          = 1;
   var $enable_messages                          = 1;
   var $enable_rating                            = 1;
+  var $enable_rating_update                     = 0;
   var $currency                                 = "EUR";
   var $enable_wallpage                          = 1;
   var $wallpage_entries                         = 5;
@@ -45,6 +41,7 @@ class LovefactorySettings
   var $enable_friends                           = 1;
   var $search_jump_to_results                   = 0;
   var $enable_default_infobar                   = 0;
+  var $remove_ratings_on_profile_remove         = 1;
   var $approval_photos                          = 0;
   var $approval_videos                          = 0;
   var $approval_comments                        = 0;
@@ -165,7 +162,7 @@ class LovefactorySettings
   var $display_hidden                           = 0;
   var $gender_pricing                           = 0;
   var $gender_change                            = 1;
-  var $profile_status_change                    = 1;
+  var $profile_status_change                    = 0;
   var $fields_location                          = 0;
   var $update_fields_location                   = 0;
   var $enable_relationships                     = 1;
@@ -175,7 +172,7 @@ class LovefactorySettings
   var $results_default_sort_by                  = 1;
   var $profile_link_new_window                  = 0;
   var $enable_groups                            = 1;
-  var $groups_allow_users_create                = 1;
+  var $groups_allow_users_create                = 0;
   var $groups_post_allowed_html                 = "a,b,i,u";
   var $groups_photo_max_width                   = 120;
   var $groups_photo_max_height                  = 200;
@@ -186,7 +183,7 @@ class LovefactorySettings
   var $enable_token_auth                        = 0;
   var $delete_user_plugin                       = 1;
   var $admin_comments_delete                    = 1;
-  var $user_comments_delete                     = 1;
+  var $user_comments_delete                     = 0;
   var $enable_banned_words_filter               = 0;
   var $date_format                              = "ago";
   var $date_custom_format                       = "d/m/Y H:i";
@@ -211,6 +208,8 @@ class LovefactorySettings
   var $chatfactory_integration_users_list       = 1;
   var $chatfactory_integration_delete_user      = 0;
   var $enable_blogfactory_integration           = 0;
+  var $enable_youtube_integration               = 0;
+  var $youtube_api_key                          = "";
   var $enable_gmaps                             = 0;
   var $gmaps_api_key                            = "";
   var $gmaps_default_x                          = "0";
@@ -237,7 +236,7 @@ class LovefactorySettings
   var $limit_search_results                     = 0;
   var $distances_unit                           = 0;
   var $max_search_radius                        = 1000;
-  var $enable_search_radius                     = 1;
+  var $enable_search_radius                     = 0;
   var $enable_search_radius_sex_filter          = 1;
   var $allow_guest_search_radius                = 0;
   var $enable_members_map                       = 1;
@@ -245,18 +244,16 @@ class LovefactorySettings
   var $members_map_group_users                  = 1;
   var $members_map_group_zoom                   = 10;
   var $members_map_default_membership_show      = 1;
-  var $members_map_gmap_field                   = 43;
+  var $members_map_gmap_field                   = 0;
   var $search_radius_gmap_field                 = 43;
   var $enable_status                            = 1;
   var $status_max_length                        = 255;
   var $registration_mode                        = 2;
   var $enable_profile_fillin                    = 1;
-  var $registration_email_notifications         = 0;
   var $registration_login_redirect              = 0;
   var $hide_banned_profiles                     = 1;
   var $hide_ignored_profiles                    = 1;
   var $default_photo_extension                  = "";
-  var $enable_user_email_notify                 = 1;
   var $enable_smarty                            = 0;
   var $number_search_results_per_page           = 10;
   var $allow_guests_view_profile                = 1;
@@ -290,5 +287,6 @@ class LovefactorySettings
   var $default_membership_access                = array();
   var $profile_fillin_reminder_enable           = 0;
   var $profile_fillin_reminder_interval         = 30;
-  var $enable_rating_update                     = 0;
+  var $display_user_name                        = array('16','');
+  var $create_profile_admin_groups              = array();
 }

@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+ lang="en" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Love Factory    [the Factory Wiki]
+  </title>
+
+  <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="date" content="2015-10-22T09:06:59+0000"/>
+<meta name="keywords" content="joomla30,lovefactory,lovefactory"/>
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.thephpfactory.com/lib/exe/opensearch.php" title="the Factory Wiki"/>
+<link rel="start" href="http://wiki.thephpfactory.com/"/>
+<link rel="contents" href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:lovefactory&amp;do=index" title="Sitemap"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="http://wiki.thephpfactory.com/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="http://wiki.thephpfactory.com/feed.php?mode=list&amp;ns=joomla30:lovefactory"/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="http://wiki.thephpfactory.com/doku.php?do=export_xhtml&amp;id=joomla30:lovefactory:lovefactory"/>
+<link rel="canonical" href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:lovefactory"/>
+<link rel="stylesheet" media="screen" type="text/css" href="http://wiki.thephpfactory.com/lib/exe/css.php?t=thephpfactory&amp;tseed=1479200018"/>
+<link rel="stylesheet" media="all" type="text/css" href="http://wiki.thephpfactory.com/lib/exe/css.php?s=all&amp;t=thephpfactory&amp;tseed=1479200018"/>
+<link rel="stylesheet" media="print" type="text/css" href="http://wiki.thephpfactory.com/lib/exe/css.php?s=print&amp;t=thephpfactory&amp;tseed=1479200018"/>
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+var NS='joomla30:lovefactory';var JSINFO = {"id":"joomla30:lovefactory:lovefactory","namespace":"joomla30:lovefactory"};
+//--><!]]></script>
+<script type="text/javascript" charset="utf-8" src="http://wiki.thephpfactory.com/lib/exe/js.php?tseed=1479200018"></script>
+  <link rel="shortcut icon" href="http://wiki.thephpfactory.com/lib/tpl/thephpfactory/images/favicon.ico" />
+<link rel="apple-touch-icon" href="http://wiki.thephpfactory.com/lib/tpl/thephpfactory/images/apple-touch-icon.png" />
+
+  
+  <link href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26880402-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<div class="dokuwiki">
+  
+  <div class="stylehead">
+<!-- Header444 -->
+    <div class="header">
+      <div class="pagename">
+		<a  href="http://wiki.thephpfactory.com" title="Home"><img src="http://wiki.thephpfactory.com/lib/tpl/thephpfactory/images/logo_wiki.png" alt="Logo" width="" height="80" /></a>
+      </div>
+      <div class="logo">
+		<a  href="http://thephpfactory.com/joomla-components-and-modules" title="thePHPfactory"><img src="http://wiki.thephpfactory.com/lib/tpl/thephpfactory/images/back_logo.png" alt="Back" width="" height="80" /></a>
+      </div>
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="bar" id="bar__top">
+      <div class="bar-left" id="bar__topleft">
+                		<span class="bchead">You are here: </span><a href="http://wiki.thephpfactory.com/doku.php?id=home" class="wikilink1" title="home">Documentation for thePHPfactory Joomla Extensions</a> &raquo; <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:home" class="wikilink1" title="joomla30:home">Joomla 3.0</a> &raquo; <span class="curid"><a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:lovefactory" class="wikilink1" title="joomla30:lovefactory:lovefactory">Love Factory</a></span>      </div>
+
+      <div class="bar-right" id="bar__topright">
+                <form action="http://wiki.thephpfactory.com/doku.php" accept-charset="utf-8" class="search" id="dw__search" method="get"><div class="no"><input type="hidden" name="do" value="search" /><input type="text" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]" /><input type="submit" value="Search" class="button" title="Search" /><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>&nbsp;
+      </div>
+
+      <div class="clearer"></div>
+    </div>
+
+        <div class="breadcrumbs">
+                </div>
+    
+
+
+  </div>
+  
+  
+  <div class="page">
+    <!-- wikipage start -->
+    
+<h1 class="sectionedit1"><a name="love_factory" id="love_factory">Love Factory</a></h1>
+<div class="level1">
+
+<p>
+<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:installing" class="wikilink1" title="joomla30:lovefactory:installing">Love Factory - Installing, Updating and Uninstalling</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:settings" class="wikilink1" title="joomla30:lovefactory:settings">Love Factory - Configuration</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:fields" class="wikilink1" title="joomla30:lovefactory:fields">Love Factory - Fields</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:pages" class="wikilink1" title="joomla30:lovefactory:pages">Love Factory - Pages</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:memberships" class="wikilink1" title="joomla30:lovefactory:memberships">Love Factory - Memberships</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:pricing" class="wikilink1" title="joomla30:lovefactory:pricing">Love Factory - Prices</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:gateways" class="wikilink1" title="joomla30:lovefactory:gateways">Love Factory - Gateways</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:invoices" class="wikilink1" title="joomla30:lovefactory:invoices">Love Factory - Invoices</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:advertising" class="wikilink1" title="joomla30:lovefactory:advertising">Love Factory - Advertising</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:notifications" class="wikilink1" title="joomla30:lovefactory:notifications">Love Factory - Notifications</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:backup" class="wikilink1" title="joomla30:lovefactory:backup">Love Factory - Backup &amp; Restore</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:users" class="wikilink1" title="joomla30:lovefactory:users">Love Factory - Users</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:groups" class="wikilink1" title="joomla30:lovefactory:groups">Love Factory - Groups</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:orders" class="wikilink1" title="joomla30:lovefactory:orders">Love Factory - Orders</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:payments" class="wikilink1" title="joomla30:lovefactory:payments">Love Factory - Payments</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:reports" class="wikilink1" title="joomla30:lovefactory:reports">Love Factory - Reports</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:modules" class="wikilink1" title="joomla30:lovefactory:modules">Love Factory - Modules</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:plugins" class="wikilink1" title="joomla30:lovefactory:plugins">Love Factory - Plugins</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:integrations" class="wikilink1" title="joomla30:lovefactory:integrations">Love Factory - Integrations</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:chat_factory_integration" class="wikilink1" title="joomla30:lovefactory:chat_factory_integration">Love Factory - Chat Factory Integration</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla30:lovefactory:user_guide" class="wikilink1" title="joomla30:lovefactory:user_guide">Love Factory - User Guide</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wiki.thephpfactory.com/doku.php?id=joomla25:love:api_for_third_party_gateway_integration" class="wikilink1" title="joomla25:love:api_for_third_party_gateway_integration">Love Factory - API for 3rd Party Payment Gateways Integration</a></div>
+</li>
+</ul>
+
+</div>
+
+    <!-- wikipage stop -->
+  </div>
+
+  <div class="clearer"></div>
+
+  
+  <div class="stylefoot">
+
+    <div class="meta">
+      <div class="user">
+              </div>
+	      </div>
+
+   
+    <div class="bar" id="bar__bottom">
+      <div class="bar-left" id="bar__bottomleft">
+                              </div>
+      <div class="bar-right" id="bar__bottomright">
+                                        <form class="button btn_login" method="get" action="http://wiki.thephpfactory.com/doku.php"><div class="no"><input type="hidden" name="do" value="login" /><input type="hidden" name="sectok" value="da5b5c16d20612a5258c0f228e624f2d" /><input type="hidden" name="id" value="joomla30:lovefactory:lovefactory" /><input type="submit" value="Login" class="button" title="Login" /></div></form>        <form class="button btn_index" method="get" action="http://wiki.thephpfactory.com/doku.php"><div class="no"><input type="hidden" name="do" value="index" /><input type="hidden" name="id" value="joomla30:lovefactory:lovefactory" /><input type="submit" value="Sitemap" class="button" accesskey="x" title="Sitemap [X]" /></div></form>        <a class="nolink" href="#dokuwiki__top"><input type="button" class="button" value="Back to top" onclick="window.scrollTo(0, 0)" title="Back to top" /></a>&nbsp;
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+  </div>
+
+  
+</div>
+
+<div class="no"><img src="http://wiki.thephpfactory.com/lib/exe/indexer.php?id=joomla30%3Alovefactory%3Alovefactory&amp;1492192966" width="2" height="1" alt="" /></div>
+</body>
+</html>
